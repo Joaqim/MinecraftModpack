@@ -63,7 +63,6 @@ Modpack Info
 - [**Formations (Structure Library)**](https://modrinth.com/mod/formations) (both, 1.0.2-forge-mc1.20) - Formations adds utilities for structure datapacks!
 - [**FPS Reducer**](https://modrinth.com/mod/fps-reducer) (client, 1.20-2.5) - Reduce GPU and CPU usage automatically when no user operation exists.
 - [**Geckolib**](https://modrinth.com/mod/geckolib) (both, 4.4.7) - A 3D animation library for entities, blocks, items, armor, and more!
-- [**Glowing Tools**](https://modrinth.com/mod/glowing-tools) (both, 1.4.2+1.20.1) - Adds glowing tools so you don't have to unequip your shield or use a fullbright mod to see while you're busy mining in caves! Works with shaders (tested with BSL and Complementary on Iris)! Requires LambDynamicLights!
 - [**GraveStone Mod**](https://modrinth.com/mod/gravestone-mod) (both, forge-1.20.1-1.0.17) - Places a gravestone with your inventory items inside when you die
 - [**Handcrafted**](https://modrinth.com/mod/handcrafted) (both, 3.0.6) - Make your house a home!
 - [**Hearths**](https://modrinth.com/mod/hearths) (both, 1.0.1) - A handful of additions to vanilla Nether biomes
@@ -97,6 +96,7 @@ Modpack Info
 - [**Philips Ruins**](https://modrinth.com/mod/philips-ruins) (both, 1.20.1-4.2) - This mod adds ancient ruins to your Minecraft world
 - [**playerAnimator**](https://modrinth.com/mod/playeranimator) (both, 1.0.2-rc1+1.20-forge) - animate the player
 **PrometheusExporter** (server)
+- [**Radiant Gear**](https://modrinth.com/mod/radiant-gear) (client, 2.1.5+1.20.1) - A compatibility bridge between Curios API or Trinkets API and dynamic light mods such as Lucent or LambDynamicLights. Formerly known as Curious Lights.
 - [**Resourceful Lib**](https://modrinth.com/mod/resourceful-lib) (both, 2.1.25) - Resourceful Lib
 - [**Embeddium (Rubidium) Extra**](https://modrinth.com/mod/rubidium-extra) (client, 0.5.4.3+mc1.20.1-build.121) - Port of Sodium Extra to work with Embeddium/Rubidium on (Neo)Forge
 - [**Searchables**](https://modrinth.com/mod/searchables) (client, 1.0.3) - Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components, as well as offering built in auto-complete functionality.
