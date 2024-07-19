@@ -107,6 +107,11 @@ hash = "0705e2c0431e4e4b1d528ebeeb1c2df458c40abc6c1a73d5fd8bb0381a891b79"
 metafile = true
 
 [[files]]
+file = "mods/auto-plant-crops.pw.toml"
+hash = "cd43476ce7b8f27af26d52ebc42e434873e31251663e1ff38075c04e253e2921"
+metafile = true
+
+[[files]]
 file = "mods/automatic-tool-swap.pw.toml"
 hash = "90098c4809efecfc712cb86c0290d156c85b830b1e733c4465fa6f1ff2356b07"
 metafile = true
@@ -302,8 +307,18 @@ hash = "70f677a3c35b5bb6f63450fe9b231529d2f17aefa5cca2cedcd56cb4d5e01e00"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "8abf1256f66e369ab03f3e4a46c235eb9a4a2ebeeaf9393a810a649592f8b0dc"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "94ff749ff050e6cc3a4a3e2ddf539f3165335a34ba911f5ccfcbc6e23c3ace72"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "3d392f4802461d6473de7836ec3b44fe7bef954832c8315135530be5519f647d"
 metafile = true
 
 [[files]]
@@ -452,11 +467,6 @@ hash = "d04432348bdfc79908653387d17cad76c54b0abd9d313f87bb7902802d5bf93a"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "a7e499feebc9ac83d4418f6218a168f14810cfa660381935ba21e78d00a1101b"
-metafile = true
-
-[[files]]
 file = "mods/keep-inventory-control.pw.toml"
 hash = "13dc3520bb49fd692f9f1b4fa4f272672d4513dad7a828fa70b45601755d69f7"
 metafile = true
@@ -474,6 +484,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "a883a1da48e1bf90964ee3ce26a198b377ee105be1da7032c42e3bd6d11692e5"
+metafile = true
+
+[[files]]
+file = "mods/lmd.pw.toml"
+hash = "e95e338b86bd8bd7ee373260e9096b7fa1346695bc65f220f4107fb0e15221ea"
 metafile = true
 
 [[files]]
@@ -784,6 +799,21 @@ metafile = true
 [[files]]
 file = "mods/yungs-menu-tweaks.pw.toml"
 hash = "5b5fdfaf8e757e4f54e621aca1c52f5d8c90c7be3bc78c2978173326f5c02bf5"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "256b67c869770482657d4dd31124bf705c780c5c798206af522bcd5392c7ded9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fullbright-ub.pw.toml"
+hash = "d6d6fdf7ebb8c4dac19b39df210f9695af807adf0ceda3ef9e2baa754568fec4"
+metafile = true
+
+[[files]]
+file = "resourcepacks/translations-for-sodium.pw.toml"
+hash = "a8d21fdf3561fd014d0606c71966a8aa304529b2b12a46e5f27e136141ac7588"
 metafile = true
 
 [[files]]
