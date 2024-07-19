@@ -35,6 +35,7 @@ Modpack Info
 - [**Cloth Config API**](https://modrinth.com/mod/cloth-config) (both, 11.1.118+forge) - Configuration Library for Minecraft Mods
 - [**Cluttered**](https://modrinth.com/mod/cluttered) (both, 2.1) - Assortment of decor and furniture
 - [**Collective**](https://modrinth.com/mod/collective) (both, 1.20.1-7.71-fabric+forge+neo) - 🎓 Collective is a shared library with common code for all of Serilum's mods.
+- [**Controlify**](https://modrinth.com/mod/controlify) (client, 2.0.0-beta.14+1.20.1-fabric) - Adds the best controller support to Minecraft Java edition!
 - [**Controlling**](https://modrinth.com/mod/controlling) (client, 12.0.2) - Adds a search bar to the Key-Bindings menu
 - [**CreativeCore**](https://modrinth.com/mod/creativecore) (client, 2.11.32) - A core mod
 - [**ChoiceTheorem's Overhauled Village**](https://modrinth.com/mod/ct-overhaul-village) (server, 3.3.6) - Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.
@@ -49,7 +50,9 @@ Modpack Info
 - [**Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)**](https://modrinth.com/mod/ears) (client, 1.4.6+forge-1.19.4) - More skin customization options for just about every version + skin back​ports/fixes for pre-1.9 versions.
 - [**Easier Sleeping**](https://modrinth.com/mod/easier-sleeping) (both, 1.20.1-2.1.3) - Only a percentage of players has to sleep.
 - [**Embeddium**](https://modrinth.com/mod/embeddium) (client, 0.3.25+mc1.20.1) - A performance-enhancing client mod (based on Sodium) prioritizing reliability & mod compatibility
+- [**Exline's Furniture**](https://modrinth.com/mod/exlines-furniture) (both, 2.7.3) - Furniture to decorate your world with! This mod adds many new blocks to decorate with, all craft-able in survival mode.
 - [**Explorify**](https://modrinth.com/mod/explorify) (both, 1.6.1) - A simplistic, vanilla-friendly collection of new structures.
+- [**Fabric API**](https://modrinth.com/mod/fabric-api) (both, 0.92.2+1.20.1) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
 - [**Falling Leaves (NeoForge/Forge)**](https://modrinth.com/mod/fallingleavesforge) (client, 2.1.0) - Adds a neat little particle effect to leaf blocks
 - [**Fantasy Metals**](https://modrinth.com/mod/fantasy-metals) (both, 1.0.3) - Fantasy ores and gems, tools and armor.
 - [**fapdos' Nether Mobs: Recrafted**](https://modrinth.com/mod/fapdos-nether-mobs-recrafted) (both, 1.6.0) - Adds several different mobs and items to the Nether
@@ -70,6 +73,7 @@ Modpack Info
 - [**Ice and Fire**](https://modrinth.com/mod/ice-and-fire-dragons) (both, 2.1.13-1.20.1-beta-4) - Dragons and Mythical creatures in minecraft.
 - [**Ice and Fire: Spellbooks**](https://modrinth.com/mod/ice-and-fire-spellbooks) (both, 2.2.0-1.20.1) - A compat mod between Ice and Fire and Iron's Spells and Spellbooks
 - [**ImmediatelyFast**](https://modrinth.com/mod/immediatelyfast) (client, 1.2.7+1.20.2) - Speed up immediate mode rendering in Minecraft
+- [**Iris Shaders**](https://modrinth.com/mod/iris) (client, 1.7.2+1.20.1) - A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs
 - [**Iron's RPG Tweaks**](https://modrinth.com/mod/irons-rpg-tweaks) (both, 1.20-1.2.2) - Gameplay mechanic tweaks for combat/damage ticks, xp, durability, enchanting, hunger, and more
 - [**Iron's Spells 'n Spellbooks**](https://modrinth.com/mod/irons-spells-n-spellbooks) (both, 1.20.1-3.3.0) - A magic mod bringing back the classic RPG spellcasting fantasy. (irons spells and spellbooks)
 - [**ItemPhysic Lite**](https://modrinth.com/mod/itemphysic-lite) (client, 1.6.4) - items fall to the ground and do not float
@@ -99,6 +103,7 @@ Modpack Info
 - [**Simplest Copper Gear**](https://modrinth.com/mod/simplest-copper-gear) (both, 1.0.5) - Copper armor and tools.
 - [**Sky Lands**](https://modrinth.com/mod/sky-lands) (both, 0.3.0) - Adds new sky islands biomes, blocks, bosses, weaponery and much more
 - [**Small Ships**](https://modrinth.com/mod/small-ships) (both, 2.0.0-b1.3.1) - Vanilla friendly Ships for Minecraft. Now with cannons!
+- [**Sodium**](https://modrinth.com/mod/sodium) (client, mc1.20.1-0.5.11) - A modern rendering engine for Minecraft which greatly improves performance
 - [**Spells Gone Wrong (Iron's Spells N Spellbooks)**](https://modrinth.com/mod/spells-gone-wrong) (server, 1.20.1-1.0.0) - This mod allows you to take damage from your own casted spells and configure new spell features. Only works on spells added by Iron's Spells N Spellbooks [Configurable]
 - [**Spiritual Come Back (SCB)**](https://modrinth.com/mod/spiritual-come-back-(scb)) (both, 1.6.1) - Spiritual Come Back is a mod that allows you to return for your loot or your grave without taking too much risk along the way with the Spirit form!
 - [**Structure Gel API**](https://modrinth.com/mod/structure-gel-api) (both, 2.16.2) - An API for simplifying the developer end of creating generated structures.
@@ -112,6 +117,7 @@ Modpack Info
 - [**WF's Cave Overhaul**](https://modrinth.com/mod/wfs-cave-overhaul) (both, 1.2.2-Fixed) - Brand new noise caves for a new adventure
 - [**Xaero's Minimap**](https://modrinth.com/mod/xaeros-minimap) (client, 24.2.0_Forge_1.20) - Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.
 - [**Xaero's World Map**](https://modrinth.com/mod/xaeros-world-map) (client, 1.38.8_Forge_1.20) - Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.
+- [**YetAnotherConfigLib**](https://modrinth.com/mod/yacl) (client, 3.5.0+1.20.1-forge) - A builder-based configuration library for Minecraft.
 - [**YUNG's API**](https://modrinth.com/mod/yungs-api) (both, 1.20-Forge-4.0.5) - Library mod for YUNG's mods.
 - [**YUNG's Better Desert Temples**](https://modrinth.com/mod/yungs-better-desert-temples) (server, 1.20-Forge-3.0.3) - A complete redesign of Minecraft's desert temples!
 - [**YUNG's Better Dungeons**](https://modrinth.com/mod/yungs-better-dungeons) (server, 1.20-Forge-4.0.4) - A complete redesign of Minecraft's dungeons!
