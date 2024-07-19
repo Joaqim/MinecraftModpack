@@ -32,7 +32,7 @@
         {
           packwiz-server = packwiz2nixLib.fetchPackwizModpack {
             manifest = "${self}/pack.toml";
-            hash = "sha256-lId+KprT/E7cLpJaEjW5Jj/SKbhLwXy6zKFGunmzmc0=";
+            hash = "sha256-lvU6MFCpY8D14SxREjQRdEheHkOMiXrdFWgLdaD1lPI=";
             side = "server";
           };
 
