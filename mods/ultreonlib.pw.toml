@@ -1,0 +1,13 @@
+name = "Ultreon Modding Library"
+filename = "ultreon-lib-forge-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/74g7isNi/versions/CBo3jwXT/ultreon-lib-forge-1.5.0.jar"
+hash-format = "sha1"
+hash = "e7fdd9aa9d23fc5d4fe1083b0d921ae575939092"
+
+[update]
+[update.modrinth]
+mod-id = "74g7isNi"
+version = "CBo3jwXT"

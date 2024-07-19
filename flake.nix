@@ -36,7 +36,7 @@
           # symlinked as `./result`.
 
           packwiz-pack-hash = null;
-          modrinth-pack-hash = "sha256-JcS8umzIB2X69ZnCa4+Nz9ovj8WaD2D8gz3WQg6YPWk=";
+          modrinth-pack-hash = "sha256-+9NpIatjjbJ/5/+hHoSNdoKwA0Ive/jFafwXYF/IQ2Y=";
         in
         {
           
