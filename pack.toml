@@ -1,12 +1,12 @@
 name = "Gjewt"
 author = "Joaqim"
-version = "2024.07.19-rc5"
+version = "2024.07.19-rc6"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1b0856691a1eba5097092dc96b5ccbdd97a85c991f5de5412d25a49a5275e991"
+hash = "0d705aa7b1cbb72b6f7d44a0c43db9158a24c7e8c3363043ae801d32aaaf9d91"
 
 [versions]
 forge = "47.3.1"

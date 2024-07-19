@@ -277,6 +277,11 @@ hash = "ec5b452599201804f40e6a9f4549849065b8428d5b046bd0638f9897e1e4b72c"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "91c2538d726a12623122d1a2945a6ad3d2d5b290d43c72149f21af560e8465eb"
+metafile = true
+
+[[files]]
 file = "mods/distant-worlds.pw.toml"
 hash = "419bcc80436f50a61370d1142f64623250fe9dbcccaabd4d35edf2dfdca16214"
 metafile = true
@@ -619,6 +624,11 @@ metafile = true
 [[files]]
 file = "mods/radiant-gear.pw.toml"
 hash = "22f5df846eda08fff13732a29450e2e583f7c3336df7a3eaf1d7af3b629cc6d2"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "6069264d5bd6f36ac4818f64b19b0734dc36f31b694f09d13368c437529dcf2d"
 metafile = true
 
 [[files]]
