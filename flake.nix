@@ -30,6 +30,11 @@
           packwiz2nixLib = inputs.packwiz2nix.lib.${system};
         in
         {
+          ## These builds expects Double Invocation
+          # Invalid will be invalid newer builds ( use placeholder sah with `lib.fakeSha256` ) 
+          # The failed result will tell you the expected `hash` to place in their respective place.
+          # When you've set the hash, the build will return with a `/nix/store` entry of the results, 
+          # symlinked as `./result`.
           packwiz-server = packwiz2nixLib.fetchPackwizModpack {
             manifest = "${self}/pack.toml";
             hash = "sha256-lvU6MFCpY8D14SxREjQRdEheHkOMiXrdFWgLdaD1lPI=";
