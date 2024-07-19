@@ -102,6 +102,16 @@ hash = "e85c250cf7f4ecd3710c0395cd4372c3f41c9fd3abf07c634795eb50139d4c17"
 metafile = true
 
 [[files]]
+file = "mods/automatic-tool-swap.pw.toml"
+hash = "90098c4809efecfc712cb86c0290d156c85b830b1e733c4465fa6f1ff2356b07"
+metafile = true
+
+[[files]]
+file = "mods/autopath.pw.toml"
+hash = "65c21f304d26c4be4f77cc30e5c21944eee51479fc15a56020ebe98e6016037a"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "1596f0056944116fc58e9294ede2ecf069f11241ab57836b3096c57a008e67b3"
 metafile = true
@@ -182,6 +192,11 @@ hash = "ff8dc50c39cb0488c0b95eead83d4137faca5556f949768dc412ba83cc9a231e"
 metafile = true
 
 [[files]]
+file = "mods/continuity.pw.toml"
+hash = "acbde04e67f2f0970a6b81e3c818a5f8ed3eceab4f3a04330d80c70c24d03afe"
+metafile = true
+
+[[files]]
 file = "mods/controlify.pw.toml"
 hash = "b88d26ebdc9c7c0eb8874e9f4528a7af86370c0ebef31ed8733c6535b9bff3fd"
 metafile = true
@@ -254,6 +269,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "70f677a3c35b5bb6f63450fe9b231529d2f17aefa5cca2cedcd56cb4d5e01e00"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "94ff749ff050e6cc3a4a3e2ddf539f3165335a34ba911f5ccfcbc6e23c3ace72"
 metafile = true
 
 [[files]]
@@ -352,6 +372,11 @@ hash = "d29a7b417432dd8ea0e0c1535ca6ec26e75cad58eec96c80037dbf24ed1634c1"
 metafile = true
 
 [[files]]
+file = "mods/htm.pw.toml"
+hash = "461cb4f05d3409e059ea63950a789d9073a972612e9809c92a60ff8a8ff9b54b"
+metafile = true
+
+[[files]]
 file = "mods/ice-and-fire-dragons.pw.toml"
 hash = "5cddb71ac06974f13689c1d9b0ff4d9ba0edfbb12ce974228f3383a77228a596"
 metafile = true
@@ -364,11 +389,6 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
-metafile = true
-
-[[files]]
-file = "mods/iris.pw.toml"
-hash = "aac37788ac1acd537a8b5b32fc2489cddf8034f196f7f38c0755837764b4f01d"
 metafile = true
 
 [[files]]
@@ -412,8 +432,43 @@ hash = "a883a1da48e1bf90964ee3ce26a198b377ee105be1da7032c42e3bd6d11692e5"
 metafile = true
 
 [[files]]
+file = "mods/lucent.pw.toml"
+hash = "62041794a3b89328e32fd32fe2fd85702b000978fb6aa34d9b60c2f67bf8a0d4"
+metafile = true
+
+[[files]]
+file = "mods/macaws-doors.pw.toml"
+hash = "68251e330e5dbe76afcd601f3a4aee11cb5215d10253d5f95b928f9686cd8847"
+metafile = true
+
+[[files]]
+file = "mods/macaws-fences-and-walls.pw.toml"
+hash = "494deaee9599d72411053c7a624a6edee9736965163734f8c04dc43d4211aad6"
+metafile = true
+
+[[files]]
 file = "mods/macaws-furniture.pw.toml"
 hash = "30e136ebbb3f07f49403e513291253d45a3fae1c7c0250e3cd926d38ac193115"
+metafile = true
+
+[[files]]
+file = "mods/macaws-holidays.pw.toml"
+hash = "40a8b61ae352ca40b43721dc39a9aa8defb9548e637598711652fa89cfef3c9e"
+metafile = true
+
+[[files]]
+file = "mods/macaws-lights-and-lamps.pw.toml"
+hash = "26c88cf151590fdbd9d3f8db20498fe66fc784a00d9019870461c60bb6298583"
+metafile = true
+
+[[files]]
+file = "mods/macaws-roofs.pw.toml"
+hash = "f89072240962d6626670a875ae6158ef85b068cf67eaf97a0a3ffd661287f260"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.pw.toml"
+hash = "db40389c09775cc7ac7837ca14fa9ebfd8e6ed073918a451e758c3fe3a67d9f7"
 metafile = true
 
 [[files]]
@@ -459,6 +514,11 @@ metafile = true
 [[files]]
 file = "mods/octo-lib.pw.toml"
 hash = "81d06b76e9cb7cb1e0c8f69724055a24ec75291c67d32a5740bd8bafd6ba7940"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "3b1748a6e0d022cd763bebe8601fbb9148e6535c8f8c171b38013d9a8035a311"
 metafile = true
 
 [[files]]
@@ -509,6 +569,11 @@ metafile = true
 [[files]]
 file = "mods/simplest-copper-gear.pw.toml"
 hash = "e028b76b6c5badb0e26a6d8aee974c3dd469857c99de8551c31519710f549155"
+metafile = true
+
+[[files]]
+file = "mods/skinrestorer.pw.toml"
+hash = "d4ce2e907ac37eb1c7d4232354fa28e1a2bb9e00999ae6811e5fc587824132e2"
 metafile = true
 
 [[files]]
