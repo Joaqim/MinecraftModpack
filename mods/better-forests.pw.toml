@@ -1,13 +1,13 @@
 name = "Better Forests"
-filename = "betterforests-0.2.jar"
+filename = "betterforests-0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pzV7UzQO/versions/ttpb6xKl/betterforests-0.2.jar"
+url = "https://cdn.modrinth.com/data/pzV7UzQO/versions/kcIw7dYK/betterforests-0.4.jar"
 hash-format = "sha1"
-hash = "bba601c735932be8654985245c531270b2ff4295"
+hash = "63c369a361799ab9eb36d8db4796d25718fbdae7"
 
 [update]
 [update.modrinth]
 mod-id = "pzV7UzQO"
-version = "ttpb6xKl"
+version = "kcIw7dYK"

@@ -1,0 +1,13 @@
+name = "Glowing Tools"
+filename = "glowing_tools_forge-1.4.2+1.20.1-com.miluum.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FjKJ0U5c/versions/PdG1bajR/glowing_tools_forge-1.4.2%2B1.20.1-com.miluum.jar"
+hash-format = "sha1"
+hash = "47df3db37a98b2365e5b533070d44daa70a28bff"
+
+[update]
+[update.modrinth]
+mod-id = "FjKJ0U5c"
+version = "PdG1bajR"
