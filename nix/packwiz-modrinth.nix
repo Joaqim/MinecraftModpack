@@ -9,7 +9,7 @@ stdenvNoCC.mkDerivation (finalAttrs:
 let
   sanitizedName = lib.strings.sanitizeDerivationName finalAttrs.passthru.manifest.name;
   version = finalAttrs.passthru.manifest.version;
-  resultName = "${sanitizedName}-v${version}.mrpack";
+  resultName = "${sanitizedName}-${version}.mrpack";
 in
 {
   pname = "${sanitizedName}_Modrinth";
@@ -27,7 +27,7 @@ in
   buildPhase = ''
     runHook preBuild
 
-    # Github Ation fails with "failed to create cache directory: mkdir /homeless-shelter: permission denied" if this is not set
+    # Github Action fails with "failed to create cache directory: mkdir /homeless-shelter: permission denied" if this is not set
     export HOME=$TMPDIR
 
     result="$out/${resultName}"
