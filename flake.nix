@@ -14,12 +14,12 @@
       packages =
         let
           # These packs expects to be built using *Double Invocation*
-          # Without proper hash, the first build of any pack _will_ fail. 
-          # The failed result will tell you the expected `hash` to assign below.
-          # When you've set the hash, the next build will return with a `/nix/store` 
-          # entry of the modpack, which will also be symlinked into `./result/`.
+          # Without proper hash, the first build of any pack _will_ fail.
+          # Run `just check` will give you the correct hash to assign below.
+          # When you've set the hash, the next build will return with a `/nix/store` location
+          # of the entry of the modpack, which will also be symlinked into `./result/`.
 
-          modrinth-pack-hash = "sha256-A10Z+xQ5C9HXpfrBxoRrRSDobVmmYvk+weLpg7XsY4w=";
+          modrinth-pack-hash = "sha256-u5U4p1c7idQbXZh0oHL0noZJ1p1ooYpPhwxnh+vZBLg=";
         in
         {
           modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix {
