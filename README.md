@@ -4,14 +4,16 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2024.11.28-rc2  
+**Version**: v2024.11.28-rc3  
 **Minecraft Version**: 1.21.3  
 **Forge Version**: 53.0.25  
 
 # Mods
 
 - [**Areas**](https://modrinth.com/mod/areas) (client, 1.21.3-6.0-fabric+forge+neo) - ✍️ Create custom named regions/towns/zones with a radius using signs, with join/leave messages via GUI.
+- [**Automatic Operator**](https://modrinth.com/mod/automatic-operator) (server, 1.21.3-1.3-fabric+forge+neo) - 🤖 Automatically makes all or specific players OP in server environments when they log in.
 - [**Beautified Chat [Client]**](https://modrinth.com/mod/beautified-chat-client) (client, 1.21.3-2.6-fabric+forge+neo) - 💬 A highly configurable mod to change the chat style and colour on the client.
+- [**Beautified Chat [Server]**](https://modrinth.com/mod/beautified-chat-server) (server, 1.21.3-2.6-fabric+forge+neo) - 💬 A highly configurable mod to change the style and colour of chat messages server-wide.
 - [**Better Spawner Control**](https://modrinth.com/mod/better-spawner-control) (server, 1.21.3-4.6-fabric+forge+neo) - ✔️ Disables mob spawners whenever they are surrounded by 5 torches.
 - [**Chunky**](https://modrinth.com/mod/chunky) (both, 1.4.27) - Pre-generates chunks, quickly and efficiently
 - [**Collective**](https://modrinth.com/mod/collective) (both, 1.21.3-7.89-fabric+forge+neo) - 🎓 Collective is a shared library with common code for all of Serilum's mods.

@@ -6,8 +6,18 @@ hash = "e846636d63c39efb2639f9521a2c0ea67e9ea05101712b7169b89c87c7f81e87"
 metafile = true
 
 [[files]]
+file = "mods/automatic-operator.pw.toml"
+hash = "a0bb589dcd38ff34cefc3ff465564171da9c616b35f94141bbfc7dcde31b66ee"
+metafile = true
+
+[[files]]
 file = "mods/beautified-chat-client.pw.toml"
 hash = "c960bcbcb832bb3e289643646a1977da5b9c81a55f7bc6cc8cd457871a1cd6a2"
+metafile = true
+
+[[files]]
+file = "mods/beautified-chat-server.pw.toml"
+hash = "c1a0be21fbf451b8f798055ff78ab6a807462f38c224a2a5153edce78a208ef3"
 metafile = true
 
 [[files]]
