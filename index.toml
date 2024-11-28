@@ -6,11 +6,6 @@ hash = "e905acbd1d84dc32066a4426767f609d8d58b223b47694e09c23d9a763eed8e4"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-lights.pw.toml"
-hash = "5c20b2ca414f1e102c064addcae42507fc9b980030ddfc94b5e2820c24181028"
-metafile = true
-
-[[files]]
 file = "mods/spark.pw.toml"
 hash = "c6ef99dbaa40be6900d0ea946ae6ad6cd2189f8d585e267e29708543c00c59b3"
 metafile = true
