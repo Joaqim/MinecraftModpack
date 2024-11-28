@@ -19,7 +19,7 @@
           # When you've set the hash, the next build will return with a `/nix/store` 
           # entry of the modpack, which will also be symlinked into `./result/`.
 
-          modrinth-pack-hash = "sha256-A8S8/ANdgnWnVCcF2X2FVuophwAXjiIZVobNMSg9+Kw=";
+          modrinth-pack-hash = "sha256-e9B/TzyJt9fWKcpsQ8MZjNq3lkuNUCZFkDbAfzOnAWU=";
         in
         {
           modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix {

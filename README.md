@@ -10,4 +10,6 @@ Modpack Info
 
 # Mods
 
+- [**Chunky**](https://modrinth.com/mod/chunky) (both, 1.4.27) - Pre-generates chunks, quickly and efficiently
 - [**Dynamic Lights**](https://modrinth.com/mod/dynamic-lights) (both, 1.8.4+mod) - Supported entities and items such as torches or lanterns emit light! Server-side only!
+- [**spark**](https://modrinth.com/mod/spark) (both, 1.10.119-forge) - spark is a performance profiler for Minecraft clients, servers and proxies.

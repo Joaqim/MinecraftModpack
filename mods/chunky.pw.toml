@@ -1,0 +1,13 @@
+name = "Chunky"
+filename = "Chunky-Forge-1.4.27.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fALzjamp/versions/pM2Rdqfa/Chunky-Forge-1.4.27.jar"
+hash-format = "sha1"
+hash = "afd12fc566c9cb968ef3e16dc7a8ea38eb59b7b0"
+
+[update]
+[update.modrinth]
+mod-id = "fALzjamp"
+version = "pM2Rdqfa"
