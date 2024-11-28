@@ -1,11 +1,81 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/areas.pw.toml"
+hash = "e846636d63c39efb2639f9521a2c0ea67e9ea05101712b7169b89c87c7f81e87"
+metafile = true
+
+[[files]]
+file = "mods/beautified-chat-client.pw.toml"
+hash = "c960bcbcb832bb3e289643646a1977da5b9c81a55f7bc6cc8cd457871a1cd6a2"
+metafile = true
+
+[[files]]
+file = "mods/better-spawner-control.pw.toml"
+hash = "247a410df03d1712914e14462fabf21aad2042e02f001237a78fe21c69b78b6c"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "e905acbd1d84dc32066a4426767f609d8d58b223b47694e09c23d9a763eed8e4"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "1b38113df4866684a920a0057e7f76d850ca490edf33b9596bd3e762c65711e5"
+metafile = true
+
+[[files]]
+file = "mods/compact-help-command.pw.toml"
+hash = "c9d70cde34949717c02532a27e3b2d883e1f2591006b78ccb8349edabbc99687"
+metafile = true
+
+[[files]]
+file = "mods/despawning-eggs-hatch.pw.toml"
+hash = "6bdc337ab951248bed97a263d90332e869faa3c58f409ff17a0220a82dd14fe6"
+metafile = true
+
+[[files]]
+file = "mods/dismount-entity.pw.toml"
+hash = "7f01cb5543657afd43f9a5e1f80faffc4e7a580493c2b1995ac943e75eb60a67"
+metafile = true
+
+[[files]]
+file = "mods/easy-elytra-takeoff.pw.toml"
+hash = "b6e06345d3aa813e9aa2453e439ab0499d1e2bfc314d1ab64426bf435fb2dde8"
+metafile = true
+
+[[files]]
+file = "mods/enchanting-commands.pw.toml"
+hash = "f19bbe2107393bafbf4ef721bbfff0ac8f8208b0a5fb0aa0f2837c0f0880a7d9"
+metafile = true
+
+[[files]]
+file = "mods/hand-over-your-items.pw.toml"
+hash = "871e45f40b713f0bafbf1db4437e7c003d508b57a0718fe3acec0765821f2b11"
+metafile = true
+
+[[files]]
+file = "mods/name-tag-tweaks.pw.toml"
+hash = "05cd7a4b3ed0e978833df6f182543c70cf9ab9ea02233167de2b7b22570ffc01"
+metafile = true
+
+[[files]]
+file = "mods/passive-shield.pw.toml"
+hash = "fa715a2528241f1fdd37aad9c070f6f2fe6672007739226e3ce2ec863b3647e2"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "c6ef99dbaa40be6900d0ea946ae6ad6cd2189f8d585e267e29708543c00c59b3"
+metafile = true
+
+[[files]]
+file = "mods/stack-refill.pw.toml"
+hash = "648a08d1f0a5fdd2ad92f4cc620e9abebef55a0745d10068ce3c6d75b86135bc"
+metafile = true
+
+[[files]]
+file = "mods/starter-kit.pw.toml"
+hash = "d7d2d18c1332d2403f53eed08794d1b47291542709461fb4cae4ba00d5b31203"
 metafile = true
