@@ -1,0 +1,13 @@
+name = "Starter Kit"
+filename = "starterkit-1.21.3-7.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6L3ydNi8/versions/HmpsCpsP/starterkit-1.21.3-7.1.jar"
+hash-format = "sha1"
+hash = "5a489e23da5885f65b10421f806447466d15755e"
+
+[update]
+[update.modrinth]
+mod-id = "6L3ydNi8"
+version = "HmpsCpsP"
