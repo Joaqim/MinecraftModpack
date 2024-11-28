@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: 2024.11.28-rc3  
+**Version**: 2024.11.28-rc4  
 **Minecraft Version**: 1.21.3  
 **Forge Version**: 53.0.25  
 
