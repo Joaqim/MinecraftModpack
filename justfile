@@ -1,11 +1,5 @@
 set dotenv-load
 
-build-packwiz-server *args:
-    nix build .#packwiz-server --print-out-paths {{args}}
-
-# build-packwiz-client:
-#     nix build .#packwiz-client
-
 build-mrpack *args:
     nix build .#modrinth-pack --print-out-paths {{args}}
 

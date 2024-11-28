@@ -1,13 +1,13 @@
-name = "Gjewt"
+name = "Minecraft Modpack"
 author = "Joaqim"
-version = "2024.07.19-rc6"
+version = "2024.11.28-rc1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0d705aa7b1cbb72b6f7d44a0c43db9158a24c7e8c3363043ae801d32aaaf9d91"
+hash = "5da5654b29f9f06a2c29b24ecaf4d6fd376a02bc59e0f8ac216b8588f3717484"
 
 [versions]
-forge = "47.3.1"
-minecraft = "1.20.1"
+forge = "53.0.25"
+minecraft = "1.21.3"
