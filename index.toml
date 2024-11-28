@@ -76,6 +76,11 @@ hash = "fa715a2528241f1fdd37aad9c070f6f2fe6672007739226e3ce2ec863b3647e2"
 metafile = true
 
 [[files]]
+file = "mods/skinrestorer.pw.toml"
+hash = "1b60ea138110ac257350041012d05c57fd6ce8ed8734a7c0c85a35639a84ffef"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "c6ef99dbaa40be6900d0ea946ae6ad6cd2189f8d585e267e29708543c00c59b3"
 metafile = true

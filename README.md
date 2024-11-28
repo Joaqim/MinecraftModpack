@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2024.11.28-rc3  
+**Version**: v2024.11.28-rc4  
 **Minecraft Version**: 1.21.3  
 **Forge Version**: 53.0.25  
 
@@ -25,6 +25,7 @@ Modpack Info
 - [**Hand Over Your Items**](https://modrinth.com/mod/hand-over-your-items) (both, 1.21.3-3.5-fabric+forge+neo) - 🤝 Adds to ability for in-game players to give each other itemstacks without dropping/tossing them.
 - [**Name Tag Tweaks**](https://modrinth.com/mod/name-tag-tweaks) (server, 1.21.3-3.9-fabric+forge+neo) - 📛 Adds nametag crafting recipe, command, and named entities drop their tag on death.
 - [**Passive Shield**](https://modrinth.com/mod/passive-shield) (both, 1.21.3-3.6-fabric+forge+neo) - 🛡 The shield is hidden and provides protection passively when held idle in the offhand.
+- [**Skin Restorer**](https://modrinth.com/mod/skinrestorer) (server, 2.1.0+1.21-forge) - A server-side mod for managing and restoring player skins.
 - [**spark**](https://modrinth.com/mod/spark) (both, 1.10.119-forge) - spark is a performance profiler for Minecraft clients, servers and proxies.
 - [**Stack Refill**](https://modrinth.com/mod/stack-refill) (both, 1.21.3-4.5-fabric+forge+neo) - 📚 Automatically refills the player's hand when using the final item if a replacement exists.
 - [**Starter Kit**](https://modrinth.com/mod/starter-kit) (both, 1.21.3-7.1-fabric+forge+neo) - 📦 Give all new players joining the world configurable starter gear, items and/or potion effects. It can overwrite the initial inventory, or add the items after. Compatible with FTB Team Islands.
