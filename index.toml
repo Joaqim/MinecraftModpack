@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/areas.pw.toml"
-hash = "e846636d63c39efb2639f9521a2c0ea67e9ea05101712b7169b89c87c7f81e87"
+hash = "1415d15ab8ed265374e1b7beab4e85a2978b2405749274932bb395f72094579a"
 metafile = true
 
 [[files]]
@@ -41,6 +41,11 @@ hash = "c9d70cde34949717c02532a27e3b2d883e1f2591006b78ccb8349edabbc99687"
 metafile = true
 
 [[files]]
+file = "mods/controlify.pw.toml"
+hash = "51a74574f493de4eb83f5e17c3f5a57f8143ebb6be5363c1ed8f6c3fda8a512f"
+metafile = true
+
+[[files]]
 file = "mods/despawning-eggs-hatch.pw.toml"
 hash = "6bdc337ab951248bed97a263d90332e869faa3c58f409ff17a0220a82dd14fe6"
 metafile = true
@@ -61,8 +66,33 @@ hash = "f19bbe2107393bafbf4ef721bbfff0ac8f8208b0a5fb0aa0f2837c0f0880a7d9"
 metafile = true
 
 [[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "8200bf6ae22c874f6fd8853c8db86113ca8a0a038ec7cacb014df8328e2c784d"
+metafile = true
+
+[[files]]
 file = "mods/hand-over-your-items.pw.toml"
 hash = "871e45f40b713f0bafbf1db4437e7c003d508b57a0718fe3acec0765821f2b11"
+metafile = true
+
+[[files]]
+file = "mods/macaws-doors.pw.toml"
+hash = "ddfea6f1f4d7a6b9e6b1168e676abf5e68023a4e5e1b106d457aa6a7caafde4e"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paintings.pw.toml"
+hash = "c982e0fa006eaf9014b08b266d206295f7a669d3d46351faa145ab32801824c0"
+metafile = true
+
+[[files]]
+file = "mods/macaws-stairs.pw.toml"
+hash = "88fe10e6499480be11c716c465ac14e91a0f0a515760589ada0f2235977c07e9"
+metafile = true
+
+[[files]]
+file = "mods/macaws-trapdoors.pw.toml"
+hash = "9718422d762612b204ebd36c1c504cdf85e23e59bc7a76f30ee7f1d721327b24"
 metafile = true
 
 [[files]]
@@ -91,6 +121,26 @@ hash = "648a08d1f0a5fdd2ad92f4cc620e9abebef55a0745d10068ce3c6d75b86135bc"
 metafile = true
 
 [[files]]
+file = "mods/stack-to-nearby-chests.pw.toml"
+hash = "fbfb7ba28c70619dc15bec8d940d0caca41961f554560839d58cc41edc883fa7"
+metafile = true
+
+[[files]]
 file = "mods/starter-kit.pw.toml"
 hash = "d7d2d18c1332d2403f53eed08794d1b47291542709461fb4cae4ba00d5b31203"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "f8cae96a3bf64d215ea50a69dadd448de44d2998b3c8860e99baf44bf0e323e4"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "9ab58ee20395115e9a81010702e49c76b300c477d9f7c7f615d6694e536a49ba"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "7e207818f027fcafa44bfb8aa11ac18d9bf0357be32bceeca94ac4920637bb7e"
 metafile = true
