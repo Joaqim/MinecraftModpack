@@ -76,6 +76,11 @@ hash = "871e45f40b713f0bafbf1db4437e7c003d508b57a0718fe3acec0765821f2b11"
 metafile = true
 
 [[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "a438e7d4cf48d890de4d1af5582e6b31f43e3c8e44f3b18271f8781475145d86"
+metafile = true
+
+[[files]]
 file = "mods/macaws-doors.pw.toml"
 hash = "ddfea6f1f4d7a6b9e6b1168e676abf5e68023a4e5e1b106d457aa6a7caafde4e"
 metafile = true
