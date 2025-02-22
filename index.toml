@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "e905acbd1d84dc32066a4426767f609d8d58b223b47694e09c23d9a763eed8e4"
+hash = "01735a9d638c8fb4896c1a700eff0954aff8b854b517036bd9688e1d1754a7af"
 metafile = true
 
 [[files]]
@@ -77,12 +77,12 @@ metafile = true
 
 [[files]]
 file = "mods/skinrestorer.pw.toml"
-hash = "1b60ea138110ac257350041012d05c57fd6ce8ed8734a7c0c85a35639a84ffef"
+hash = "1c7ffe8b4b2ff0bd843eb6320b212ccce2f316be28d99432e38fe08d223cf560"
 metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "c6ef99dbaa40be6900d0ea946ae6ad6cd2189f8d585e267e29708543c00c59b3"
+hash = "c30391c4a9d653785b20d4bc8bc37bc6b98fa750f13ecb04beb48a492547b91e"
 metafile = true
 
 [[files]]
