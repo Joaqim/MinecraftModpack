@@ -1,11 +1,12 @@
 name: Build Documentation from Readme
 
-# Only trigger, when the release workflow succeeds
 on:
+  # Only trigger, when the release workflow succeeds
   workflow_run:
-    workflows: ["Create Release"]
+    workflows: ["Generate mrpack"]
     types:
       - completed
+  workflow_dispatch: # allows manual triggering
 
 jobs:
   build:
