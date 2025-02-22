@@ -6,6 +6,7 @@ on:
     workflows: ["Update README.md"]
     types:
       - completed
+      
   workflow_dispatch: # allows manual triggering
 
 jobs:
