@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.02.22-rc1  
+**Version**: v2025.02.22  
 **Minecraft Version**: 1.21.3  
 **Fabric Version**: 0.16.10  
 
@@ -25,6 +25,7 @@ Modpack Info
 - [**Enchanting Commands**](https://modrinth.com/mod/enchanting-commands) (server, 1.21.3-3.4-fabric+forge+neo) - 💫 Easy creation of (modded) enchanted items via commands with levels above the default limit.
 - [**Fabric API**](https://modrinth.com/mod/fabric-api) (both, 0.114.0+1.21.3) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
 - [**Hand Over Your Items**](https://modrinth.com/mod/hand-over-your-items) (both, 1.21.3-3.5-fabric+forge+neo) - 🤝 Adds to ability for in-game players to give each other itemstacks without dropping/tossing them.
+- [**LambDynamicLights**](https://modrinth.com/mod/lambdynamiclights) (client, 3.2.4+1.21.3) - Adds dynamic lights to Minecraft as the most feature-complete and optimized dynamic lighting mod for Fabric.
 - [**Macaw's Doors**](https://modrinth.com/mod/macaws-doors) (both, 1.1.2) - Adds vanilla doors with every wood color and new unique doors! Such as western, garage, shoji and more...!
 - [**Macaw's Paintings**](https://modrinth.com/mod/macaws-paintings) (both, 1.0.5) - Adds custom drawn paintings to fit in your world!
 - [**Macaws Stairs**](https://modrinth.com/mod/macaws-stairs) (both, 1.0.1) - Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies!
