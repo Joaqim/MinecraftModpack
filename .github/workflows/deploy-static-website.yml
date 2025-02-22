@@ -26,17 +26,11 @@ jobs:
           mkdir _pages
           mv README.md _pages/index.md
           rm -rf !"_pages"
-
-      - name: Create Hyde config
-        run: |
-          # Configure the site name
-          echo "name: Joaqim's Minecraft Modpack" >> hyde.yml
-          # Load styles from the CDN
-          echo "load_app_styles_from_cdn: true" >> hyde.yml
-          # Use Highlight.js for syntax highlighting
-          echo "scripts: '<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark.min.css\"> <script src=\"https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/highlight.min.js\"></script> <script>hljs.highlightAll();</script> <style>.prose :where(pre) { background-color: #282c34; } </style> <style>pre code.hljs { padding: 0; }</style>'" >> hyde.yml
-        env: 
-          SITE_URL: https://joaqim.com/MinecraftModpack
       - uses: hydephp/action@master
         with:
           deploy-to: "pages"
+          config: |
+            name: Joaqim's Minecraft Modpack
+            url: ${{ github.deployment.url }}
+            load_app_styles_from_cdn: true
+            scripts: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark.min.css"> <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/highlight.min.js"></script> <script>hljs.highlightAll();</script> <style>.prose :where(pre) { background-color: #282c34; } </style> <style>pre code.hljs { padding: 0; }</style>
