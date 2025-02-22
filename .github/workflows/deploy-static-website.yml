@@ -1,9 +1,9 @@
 name: Build Documentation from Readme
 
 on:
-  # Only trigger, when the release workflow succeeds
+  # Only trigger, when the README.md is updated
   workflow_run:
-    workflows: ["Generate mrpack"]
+    workflows: ["Update README.md"]
     types:
       - completed
   workflow_dispatch: # allows manual triggering
