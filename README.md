@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.02.22  
+**Version**: v2025.02.22-rc1  
 **Minecraft Version**: 1.21.3  
 **Fabric Version**: 0.16.10  
 
