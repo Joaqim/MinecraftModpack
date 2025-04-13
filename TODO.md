@@ -1,0 +1,1 @@
+- Packwiz doesn't seem to create cache at ~/.cache/packwiz/cache
