@@ -19,7 +19,7 @@ jobs:
         with:
           path: ~/.cache/packwiz
           key: ${{ runner.os }}-packwiz
-      - uses: cachix/install-nix-action@v30
+      - uses: cachix/install-nix-action@v31
       - uses: crazy-max/ghaction-import-gpg@v6
         with:
           gpg_private_key: ${{ secrets.JOAQIM_CI_BOT_PGP_PRIVATE_KEY }}
