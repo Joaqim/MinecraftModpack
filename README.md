@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.04.13  
+**Version**: v2025.04.15  
 **Minecraft Version**: 1.21.3  
 **Fabric Version**: 0.16.10  
 
@@ -31,6 +31,7 @@ Modpack Info
 - [**Macaws Stairs**](https://modrinth.com/mod/macaws-stairs) (both, 1.0.1) - Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies!
 - [**Macaw's Trapdoors**](https://modrinth.com/mod/macaws-trapdoors) (both, 1.1.4) - Adds vanila trapdoors in every plank variation, and some new trapdoors too!
 - [**Name Tag Tweaks**](https://modrinth.com/mod/name-tag-tweaks) (server, 1.21.3-3.9-fabric+forge+neo) - 📛 Adds nametag crafting recipe, command, and named entities drop their tag on death.
+- [**Paladin's Furniture Mod**](https://modrinth.com/mod/paladins-furniture) (both, 1.21.3-v1.4.2-fabric) - A Modern Furniture mod for Minecraft where things are functional!
 - [**Passive Shield**](https://modrinth.com/mod/passive-shield) (both, 1.21.3-3.6-fabric+forge+neo) - 🛡 The shield is hidden and provides protection passively when held idle in the offhand.
 - [**Skin Restorer**](https://modrinth.com/mod/skinrestorer) (server, 2.2.1+1.21-fabric) - A server-side mod for managing and restoring player skins.
 - [**spark**](https://modrinth.com/mod/spark) (both, 1.10.119-fabric) - spark is a performance profiler for Minecraft clients, servers and proxies.
