@@ -48,32 +48,10 @@
         "type": "github"
       }
     },
-    "packwiz2nix": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1695101165,
-        "narHash": "sha256-Epv0PEu1s9kLEohWOSBAsFVRNC9z9UAazdYIwKF0Ptw=",
-        "owner": "getchoo",
-        "repo": "packwiz2nix",
-        "rev": "92ef4547a654cbad32ee2f6488bd816717cbfe96",
-        "type": "github"
-      },
-      "original": {
-        "owner": "getchoo",
-        "ref": "rewrite",
-        "repo": "packwiz2nix",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs",
-        "packwiz2nix": "packwiz2nix",
         "systems": "systems"
       }
     },

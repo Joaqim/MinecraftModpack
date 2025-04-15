@@ -1,46 +1,53 @@
 {
-  description = "FabricModpack";
+  description = "A Flake for developing and building packwiz Minecraft Modpacks";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     systems.url = "github:nix-systems/default";
-
-    packwiz2nix = {
-      url = "github:getchoo/packwiz2nix/rewrite";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
-  outputs = inputs@{ flake-parts, systems, packwiz2nix, self, ... }: flake-parts.lib.mkFlake { inherit inputs; } ({ moduleWithSystem, ... }: {
-    systems = import systems;
+  outputs = inputs @ {
+    flake-parts,
+    systems,
+    self,
+    ...
+  }:
+    flake-parts.lib.mkFlake {inherit inputs;} ({
+      moduleWithSystem,
+      withSystem,
+      ...
+    }: {
+      systems = import systems;
 
-    perSystem = { system, pkgs, config, lib, ... }: {
-      packages =
-        let
-          packwiz2nixLib = inputs.packwiz2nix.lib.${system};
-        in
-        {
-          packwiz-server = packwiz2nixLib.fetchPackwizModpack {
-            manifest = "${self}/pack.toml";
-            hash = "sha256-JDdkCLeIdnHpTbEUA8WkH6G/0flbXBkHrYF9N/AlG8k=";
-            side = "server";
-          };
-
+      perSystem = {
+        system,
+        pkgs,
+        config,
+        lib,
+        ...
+      }: {
+        packages = let
+          # These packs expects to be built using *Double Invocation*
+          # Without proper hash, the first build of any pack _will_ fail.
+          # Run `nix flake check ./?dir=dev&submodules=1` will give you the correct hash to assign below.
+          # When you've set the hash, the next build will return with a `/nix/store` location
+          # of the entry of the modpack, which will also be symlinked into `./result/`.
+          modrinth-pack-hash = "sha256-Nn29zfNzJNSg9PT5T2wEDmorx7DCU46H7+H2q9S+k1c=";
+        in {
           modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix {
             src = self;
-            hash = "sha256-qPfIgqP6Xv4tt2p8xnDsspW540Q2We6nWUGYiJynyvM=";
+            hash = modrinth-pack-hash;
           };
-
-          # Not used for anything right now
-          # packwiz-client = packwiz2nixLib.fetchPackwizModpack {
-          #   manifest = "${self}/pack.toml";
-          #   hash = "sha256-cd3NdmkO3yaLljNzO6/MR4Aj7+v1ZBVcxtL2RoJB5W8=";
-          #   side = "client";
-          # };
         };
+        checks = config.packages;
+      };
 
-      checks = config.packages;
-    };
-  });
+      flake.nixosModules.minecraft-server = moduleWithSystem (
+        perSystem @ {config}: {
+          config.services.docker-minecraft-server.modrinth-modpack = perSystem.config.packages.modrinth-pack;
+          imports = [./modules/docker-minecraft-server.nix];
+        }
+      );
+    });
 }
