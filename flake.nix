@@ -33,7 +33,7 @@
           # Run `just check` will give you the correct hash to assign below.
           # When you've set the hash, the next build will return with a `/nix/store` location
           # of the entry of the modpack, which will also be symlinked into `./result/`.
-          modrinth-pack-hash = "sha256-oXPE+xGLNmAV+JCHBQf8OUQatrO6HXDxhgDcjSufUw8=";
+          modrinth-pack-hash = "sha256-M01k6QwAObg9s6fGew8Wb8C/K01zPAku4ozj1wGLTew=";
         in {
           modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix {
             src = self;
