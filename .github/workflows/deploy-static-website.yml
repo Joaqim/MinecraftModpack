@@ -1,0 +1,38 @@
+name: Build Documentation from Readme
+
+on:
+  # Only trigger, when the README.md is updated
+  workflow_run:
+    workflows: ["Update README.md"]
+    branches: [custom]
+    types:
+      - completed
+      
+  workflow_dispatch: # allows manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create site from Readme
+        run: |
+          # Here we set up the HydePHP source files to use the README.md as the index page
+          mkdir _pages
+          mv README.md _pages/index.md
+          rm -rf !"_pages"
+      - uses: hydephp/action@master
+        with:
+          deploy-to: "pages"
+          config: |
+            name: Joaqim's Minecraft Modpack
+            url: ${{ github.deployment.url }}
+            load_app_styles_from_cdn: true
+            scripts: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark.min.css"> <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/highlight.min.js"></script> <script>hljs.highlightAll();</script> <style>.prose :where(pre) { background-color: #282c34; } </style> <style>pre code.hljs { padding: 0; }</style>

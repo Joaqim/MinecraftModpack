@@ -1,0 +1,49 @@
+name: Update README.md
+on:
+  workflow_run:
+    workflows: ["Generate mrpack"]
+    branches: [custom]
+    types: 
+      - completed
+  workflow_dispatch: # allows manual triggering
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Cache Packwiz
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/packwiz
+          key: ${{ runner.os }}-packwiz
+      - uses: cachix/install-nix-action@v31
+      - uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{ secrets.JOAQIM_CI_BOT_PGP_PRIVATE_KEY }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          git_committer_name:  Joaqim's GitHub Bot
+          git_committer_email: joaqim-ci-bot@joaqim.xyz 
+      - run: |
+          export LANG=en_US.UTF-8
+          nix run ./dev#generate-readme -- --manifest pack.toml --output README.md ${CF_API_KEY:+--cf-key "$CF_API_KEY"}
+          git add README.md
+          git commit -m "docs: Update README.md" README.md
+        env: 
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        id: cpr
+        with:
+          branch: bot/update
+          delete-branch: true
+          title: "docs: Update README.md"
+      - name: Enable Pull Request Automerge
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash
