@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.04.15  
+**Version**: v2025.04.16  
 **Minecraft Version**: 1.21.3  
 **Fabric Version**: 0.16.10  
 
@@ -23,6 +23,8 @@ Modpack Info
 - [**Dismount Entity**](https://modrinth.com/mod/dismount-entity) (server, 1.21.3-3.5-fabric+forge+neo) - 🚏 Allows players to dismount/remove/exit entities/mobs from mounted entities without breaking them.
 - [**Easy Elytra Takeoff**](https://modrinth.com/mod/easy-elytra-takeoff) (server, 1.21.3-4.4-fabric+forge+neo) - 🛫 Allows easy takeoff by elytra/colytra with a firework from the ground without jumping.
 - [**Enchanting Commands**](https://modrinth.com/mod/enchanting-commands) (server, 1.21.3-3.4-fabric+forge+neo) - 💫 Easy creation of (modded) enchanted items via commands with levels above the default limit.
+- [**[EMF] Entity Model Features**](https://modrinth.com/mod/entity-model-features) (client, 2.4.1) - EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge.
+- [**[ETF] Entity Texture Features**](https://modrinth.com/mod/entitytexturefeatures) (client, 6.2.9) - Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric
 - [**Fabric API**](https://modrinth.com/mod/fabric-api) (both, 0.114.0+1.21.3) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
 - [**Hand Over Your Items**](https://modrinth.com/mod/hand-over-your-items) (both, 1.21.3-3.5-fabric+forge+neo) - 🤝 Adds to ability for in-game players to give each other itemstacks without dropping/tossing them.
 - [**LambDynamicLights**](https://modrinth.com/mod/lambdynamiclights) (client, 3.2.4+1.21.3) - Adds dynamic lights to Minecraft as the most feature-complete and optimized dynamic lighting mod for Fabric.
