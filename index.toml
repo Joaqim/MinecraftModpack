@@ -66,6 +66,16 @@ hash = "f19bbe2107393bafbf4ef721bbfff0ac8f8208b0a5fb0aa0f2837c0f0880a7d9"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "0712f5b6e3ba0fec55b99924ef061c4ecf6f38ef08595da79fe7afb68ca4328c"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "f8778d5f449b18bcb4e37b68d91bf16905e768b5ecb06dc0b5f1907b8a9c4b81"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "8200bf6ae22c874f6fd8853c8db86113ca8a0a038ec7cacb014df8328e2c784d"
 metafile = true
@@ -153,4 +163,9 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "7e207818f027fcafa44bfb8aa11ac18d9bf0357be32bceeca94ac4920637bb7e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "ee2cfef7c5a8449139deaf78229cd39d6c516950c6cc8175cd6e79382bb25c08"
 metafile = true
