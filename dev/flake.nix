@@ -60,6 +60,7 @@
 
         packages = {
           generate-readme = pkgs.callPackage ../generate-readme {};
+          get-updated-hash = pkgs.callPackage ../get-updated-hash {};
         };
         pre-commit = {
           settings = {
