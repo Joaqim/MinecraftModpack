@@ -11,10 +11,6 @@
       inputs.systems.follows = "systems";
     };
 
-    selfup = {
-      url = "github:kachick/selfup/v1.1.9";
-    };
-
     poetry2nix = {
       url = "github:nix-community/poetry2nix";
       inputs = {
@@ -60,22 +56,31 @@
 
         packages = {
           generate-readme = pkgs.callPackage ../generate-readme {};
-          get-updated-hash = pkgs.callPackage ../get-updated-hash {};
+          update-hash = pkgs.callPackage ../update-hash {};
         };
+
         pre-commit = {
           settings = {
             src = ./..;
             hooks = {
               update-hash = let
-                selfup = inputs'.selfup.packages.default;
+                inherit (self.packages.${system}) update-hash;
               in {
                 enable = true;
-                entry = "${lib.getExe selfup} run flake.nix >/dev/null";
-                files = "(^\\.nix$|^flake\\.lock$|^\\.toml$)";
+                entry = "${lib.getExe update-hash} run";
+                fail_fast = true;
+                files = "(\\.toml$|\\.nix$|^flake.lock$)";
                 pass_filenames = false;
-                name = "update-hash";
-                package = selfup;
-                extraPackages = with pkgs; [coreutils];
+                package = update-hash;
+                stages = ["pre-push"];
+              };
+
+              check-flake = {
+                enable = true;
+                entry = "nix flake check";
+                always_run = true;
+                pass_filenames = false;
+                after = ["update-hash"];
                 stages = ["pre-push"];
               };
             };
@@ -88,7 +93,6 @@
               nvfetcher
               packwiz
               poetry
-              inputs'.selfup.packages.default
             ];
             shellHook = ''
               ${config.pre-commit.installationScript}

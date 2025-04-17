@@ -9,17 +9,12 @@
 
   outputs = inputs @ {
     flake-parts,
-    systems,
     self,
+    systems,
     ...
   }:
-    flake-parts.lib.mkFlake {inherit inputs;} ({
-      moduleWithSystem,
-      withSystem,
-      ...
-    }: {
+    flake-parts.lib.mkFlake {inherit inputs;} {
       systems = import systems;
-
       perSystem = {
         system,
         pkgs,
@@ -33,21 +28,15 @@
           # Run `nix flake check ./?dir=dev&submodules=1` will give you the correct hash to assign below.
           # When you've set the hash, the next build will return with a `/nix/store` location
           # of the entry of the modpack, which will also be symlinked into `./result/`.
-          modrinth-pack-hash = "sha256-tm+7RcKOPVgUtqT0gjPuW0vfefzpfeqpiyedgLpKZiU="; # selfup { "extract": "sha256-[A-Za-z0-9\\/+]{43}=", "replacer": ["bash", "-c",  "nix run ./dev#get-updated-hash"] }
+          modrinth-pack-hash = "sha256-04XALbSgremNCsq6P1+Qn6DdOK76bCMULhMUQw3HewA=";
         in {
           modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix {
             src = self;
             hash = modrinth-pack-hash;
           };
         };
+
         checks = config.packages;
       };
-
-      flake.nixosModules.minecraft-server = moduleWithSystem (
-        perSystem @ {config}: {
-          config.services.docker-minecraft-server.modrinth-modpack = perSystem.config.packages.modrinth-pack;
-          imports = [./modules/docker-minecraft-server.nix];
-        }
-      );
-    });
+    };
 }
