@@ -9,17 +9,12 @@
 
   outputs = inputs @ {
     flake-parts,
-    systems,
     self,
+    systems,
     ...
   }:
-    flake-parts.lib.mkFlake {inherit inputs;} ({
-      moduleWithSystem,
-      withSystem,
-      ...
-    }: {
+    flake-parts.lib.mkFlake {inherit inputs;} {
       systems = import systems;
-
       perSystem = {
         system,
         pkgs,
@@ -40,14 +35,8 @@
             hash = modrinth-pack-hash;
           };
         };
+
         checks = config.packages;
       };
-
-      flake.nixosModules.minecraft-server = moduleWithSystem (
-        perSystem @ {config}: {
-          config.services.docker-minecraft-server.modrinth-modpack = perSystem.config.packages.modrinth-pack;
-          imports = [./modules/docker-minecraft-server.nix];
-        }
-      );
-    });
+    };
 }
