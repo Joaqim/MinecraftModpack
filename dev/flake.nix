@@ -11,6 +11,10 @@
       inputs.systems.follows = "systems";
     };
 
+    selfup = {
+      url = "github:kachick/selfup/v1.1.9";
+    };
+
     poetry2nix = {
       url = "github:nix-community/poetry2nix";
       inputs = {
@@ -21,30 +25,75 @@
         treefmt-nix.follows = "";
       };
     };
+
+    pre-commit-hooks-nix = {
+      url = "github:cachix/pre-commit-hooks.nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = inputs@{ flake-parts, systems, self, ... }: flake-parts.lib.mkFlake { inherit inputs; } ({
-    systems = import systems;
+  outputs = inputs @ {
+    flake-parts,
+    systems,
+    self,
+    ...
+  }:
+    flake-parts.lib.mkFlake {inherit inputs;} {
+      systems = import systems;
 
-    perSystem = { system, pkgs, ... }: {
-      _module.args.pkgs = import inputs.nixpkgs {
-        inherit system;
-        overlays = [ inputs.poetry2nix.overlays.default ];
-      };
+      imports = [
+        inputs.pre-commit-hooks-nix.flakeModule
+      ];
 
-      packages = {
-        generate-readme = pkgs.callPackage ../generate-readme { };
-      };
+      perSystem = {
+        config,
+        system,
+        pkgs,
+        inputs',
+        lib,
+        ...
+      }: {
+        _module.args.pkgs = import inputs.nixpkgs {
+          inherit system;
+          overlays = [inputs.poetry2nix.overlays.default];
+        };
 
-      devShells = {
-        default = pkgs.mkShell {
-          packages = with pkgs; [
-            nvfetcher
-            packwiz
-            poetry
-          ];
+        packages = {
+          generate-readme = pkgs.callPackage ../generate-readme {};
+        };
+        pre-commit = {
+          settings = {
+            src = ./..;
+            hooks = {
+              update-hash = let
+                selfup = inputs'.selfup.packages.default;
+              in {
+                enable = true;
+                entry = "${lib.getExe selfup} run flake.nix >/dev/null";
+                files = "(^\\.nix$|^flake\\.lock$|^\\.toml$)";
+                pass_filenames = false;
+                name = "update-hash";
+                package = selfup;
+                extraPackages = with pkgs; [coreutils];
+                stages = ["pre-push"];
+              };
+            };
+          };
+        };
+
+        devShells = {
+          default = pkgs.mkShell {
+            packages = with pkgs; [
+              nvfetcher
+              packwiz
+              poetry
+              inputs'.selfup.packages.default
+            ];
+            shellHook = ''
+              ${config.pre-commit.installationScript}
+            '';
+          };
         };
       };
     };
-  });
 }
