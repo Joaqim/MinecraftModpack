@@ -91,8 +91,18 @@ hash = "871e45f40b713f0bafbf1db4437e7c003d508b57a0718fe3acec0765821f2b11"
 metafile = true
 
 [[files]]
+file = "mods/jakes-build-tools.pw.toml"
+hash = "e03133a74987a7a40d1b77f334482717a4433fdb26491b8898891efbd5ed176a"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "a438e7d4cf48d890de4d1af5582e6b31f43e3c8e44f3b18271f8781475145d86"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "781e36c14afc4e2df3932ca79d08457c018e1c23295851b5eaf24bc1863bdb5c"
 metafile = true
 
 [[files]]
@@ -131,8 +141,18 @@ hash = "fa715a2528241f1fdd37aad9c070f6f2fe6672007739226e3ce2ec863b3647e2"
 metafile = true
 
 [[files]]
+file = "mods/realistic-bees.pw.toml"
+hash = "ed453ae2277ab211cf6473f7c6e7bde7e4c8f1d93125e92c87bc725c3dc71e92"
+metafile = true
+
+[[files]]
 file = "mods/skinrestorer.pw.toml"
 hash = "1c7ffe8b4b2ff0bd843eb6320b212ccce2f316be28d99432e38fe08d223cf560"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "8c77db94f037dd446bdd283672a329390cb902331d30c887909cde843eb8f2ea"
 metafile = true
 
 [[files]]
