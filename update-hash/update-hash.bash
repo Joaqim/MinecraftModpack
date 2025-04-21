@@ -12,7 +12,7 @@ validate_hash() {
 
 run() {
 
-    output="$(nix flake check --quiet 2>&1)"
+    output="$(nix flake check ./ --quiet 2>&1)"
     nix_flake_check_exit_code="$?"
     if [ $nix_flake_check_exit_code -ne 0 ]; then
         new_hash=$(echo "$output" | grep "got:    sha256-" | tail -c 52)
@@ -23,6 +23,9 @@ run() {
             if [ "$2" == "--dry-run" ]; then
                 echo "dry-run: sed -i \"s;-hash = \"$existing_hash_match\";-hash = \"$new_hash\";g\" flake.nix"
             else
+                if [ "$existing_hash_match" == "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" ]; then
+                    existing_hash_match="";
+                fi
                 sed -i "s;-hash = \"$existing_hash_match\";-hash = \"$new_hash\";g" flake.nix
             fi
             echo ./flake.nix: "$old_hash -> $new_hash"
