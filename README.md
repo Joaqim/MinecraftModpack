@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.04.16  
+**Version**: v2025.04.22-rc1  
 **Minecraft Version**: 1.21.3  
 **Fabric Version**: 0.16.10  
 
@@ -21,6 +21,7 @@ Modpack Info
 - [**Controlify**](https://modrinth.com/mod/controlify) (client, 2.0.2+1.21.3-fabric) - Adds the best controller support to Minecraft Java edition!
 - [**Despawning Eggs Hatch**](https://modrinth.com/mod/despawning-eggs-hatch) (server, 1.21.3-4.4-fabric+forge+neo) - 🥚 Chicken eggs on hay blocks hatch safely into chicks just before they despawn.
 - [**Dismount Entity**](https://modrinth.com/mod/dismount-entity) (server, 1.21.3-3.5-fabric+forge+neo) - 🚏 Allows players to dismount/remove/exit entities/mobs from mounted entities without breaking them.
+- [**Distant Horizons**](https://modrinth.com/mod/distanthorizons) (both, 2.3.2-b-1.21.3) - See farther without turning your game into a slide show
 - [**Easy Elytra Takeoff**](https://modrinth.com/mod/easy-elytra-takeoff) (server, 1.21.3-4.4-fabric+forge+neo) - 🛫 Allows easy takeoff by elytra/colytra with a firework from the ground without jumping.
 - [**Enchanting Commands**](https://modrinth.com/mod/enchanting-commands) (server, 1.21.3-3.4-fabric+forge+neo) - 💫 Easy creation of (modded) enchanted items via commands with levels above the default limit.
 - [**[EMF] Entity Model Features**](https://modrinth.com/mod/entity-model-features) (client, 2.4.1) - EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge.

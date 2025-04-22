@@ -61,6 +61,11 @@ hash = "7f01cb5543657afd43f9a5e1f80faffc4e7a580493c2b1995ac943e75eb60a67"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "29c62035fff51e1c3972c9077640f9dfc5940e869a79501497d3c43d4965f970"
+metafile = true
+
+[[files]]
 file = "mods/easy-elytra-takeoff.pw.toml"
 hash = "b6e06345d3aa813e9aa2453e439ab0499d1e2bfc314d1ab64426bf435fb2dde8"
 metafile = true
