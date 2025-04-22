@@ -4,12 +4,13 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.04.16  
+**Version**: v2025.04.21-rc1  
 **Minecraft Version**: 1.21.3  
 **Fabric Version**: 0.16.10  
 
 # Mods
 
+- [**3D Skin Layers**](https://modrinth.com/mod/3dskinlayers) (client, 1.7.5) - Render the player skin layer in 3d!
 - [**Areas**](https://modrinth.com/mod/areas) (both, 1.21.3-6.0-fabric+forge+neo) - ✍️ Create custom named regions/towns/zones with a radius using signs, with join/leave messages via GUI.
 - [**Automatic Operator**](https://modrinth.com/mod/automatic-operator) (server, 1.21.3-1.3-fabric+forge+neo) - 🤖 Automatically makes all or specific players OP in server environments when they log in.
 - [**Beautified Chat [Client]**](https://modrinth.com/mod/beautified-chat-client) (client, 1.21.3-2.6-fabric+forge+neo) - 💬 A highly configurable mod to change the chat style and colour on the client.
@@ -27,7 +28,9 @@ Modpack Info
 - [**[ETF] Entity Texture Features**](https://modrinth.com/mod/entitytexturefeatures) (client, 6.2.9) - Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric
 - [**Fabric API**](https://modrinth.com/mod/fabric-api) (both, 0.114.0+1.21.3) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
 - [**Hand Over Your Items**](https://modrinth.com/mod/hand-over-your-items) (both, 1.21.3-3.5-fabric+forge+neo) - 🤝 Adds to ability for in-game players to give each other itemstacks without dropping/tossing them.
+- [**Jake's Build Tools**](https://modrinth.com/mod/jakes-build-tools) (both, 1.7.1+mod) - Adds a bunch of craftable tools that help make building easier!
 - [**LambDynamicLights**](https://modrinth.com/mod/lambdynamiclights) (client, 3.2.4+1.21.3) - Adds dynamic lights to Minecraft as the most feature-complete and optimized dynamic lighting mod for Fabric.
+- [**Lithium**](https://modrinth.com/mod/lithium) (both, mc1.21.3-0.14.6-fabric) - No-compromises game logic optimization mod. Well suited for clients and servers of all kinds. Now available for Fabric and NeoForge!
 - [**Macaw's Doors**](https://modrinth.com/mod/macaws-doors) (both, 1.1.2) - Adds vanilla doors with every wood color and new unique doors! Such as western, garage, shoji and more...!
 - [**Macaw's Paintings**](https://modrinth.com/mod/macaws-paintings) (both, 1.0.5) - Adds custom drawn paintings to fit in your world!
 - [**Macaws Stairs**](https://modrinth.com/mod/macaws-stairs) (both, 1.0.1) - Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies!
@@ -35,7 +38,9 @@ Modpack Info
 - [**Name Tag Tweaks**](https://modrinth.com/mod/name-tag-tweaks) (server, 1.21.3-3.9-fabric+forge+neo) - 📛 Adds nametag crafting recipe, command, and named entities drop their tag on death.
 - [**Paladin's Furniture Mod**](https://modrinth.com/mod/paladins-furniture) (both, 1.21.3-v1.4.2-fabric) - A Modern Furniture mod for Minecraft where things are functional!
 - [**Passive Shield**](https://modrinth.com/mod/passive-shield) (both, 1.21.3-3.6-fabric+forge+neo) - 🛡 The shield is hidden and provides protection passively when held idle in the offhand.
+- [**Realistic Bees**](https://modrinth.com/mod/realistic-bees) (both, 1.21.3-4.0-fabric+forge+neo) - 🐝 Tiny bees, or big! Bigger group spawns, increased hive space, stinger functionality and more.
 - [**Skin Restorer**](https://modrinth.com/mod/skinrestorer) (server, 2.2.1+1.21-fabric) - A server-side mod for managing and restoring player skins.
+- [**Sodium**](https://modrinth.com/mod/sodium) (client, mc1.21.3-0.6.13-fabric) - The fastest and most compatible rendering optimization mod for Minecraft. Now available for both NeoForge and Fabric!
 - [**spark**](https://modrinth.com/mod/spark) (both, 1.10.119-fabric) - spark is a performance profiler for Minecraft clients, servers and proxies.
 - [**Stack Refill**](https://modrinth.com/mod/stack-refill) (both, 1.21.3-4.5-fabric+forge+neo) - 📚 Automatically refills the player's hand when using the final item if a replacement exists.
 - [**Stack to Nearby Chests**](https://modrinth.com/mod/stack-to-nearby-chests) (client, 0.5.12) - A client-side ONLY mod, adds the quick stacking and restocking features from Terraria into Minecraft.
