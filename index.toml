@@ -66,6 +66,11 @@ hash = "29c62035fff51e1c3972c9077640f9dfc5940e869a79501497d3c43d4965f970"
 metafile = true
 
 [[files]]
+file = "mods/dwarfsandgiants.pw.toml"
+hash = "7bb90d5df4376b0e54c1b48e23e75bb612041ae731c7616a6318b23d08974742"
+metafile = true
+
+[[files]]
 file = "mods/easy-elytra-takeoff.pw.toml"
 hash = "b6e06345d3aa813e9aa2453e439ab0499d1e2bfc314d1ab64426bf435fb2dde8"
 metafile = true
