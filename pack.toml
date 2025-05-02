@@ -1,6 +1,6 @@
 name = "Minecraft Modpack"
 author = "Joaqim"
-version = "v2025.04.27-rc2"
+version = "v2025.05.02-rc1"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -9,5 +9,5 @@ hash-format = "sha256"
 hash = "70309738e06c7b8509cff66cc8ba412695ddedb93268fea8583b73a8ed5af2fe"
 
 [versions]
-fabric = "0.16.10"
-minecraft = "1.21.3"
+fabric = "0.16.14"
+minecraft = "1.21.4"
