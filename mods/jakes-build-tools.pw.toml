@@ -1,13 +1,13 @@
 name = "Jake's Build Tools"
-filename = "jakes-build-tools-1.7.1.jar"
+filename = "jakes-build-tools-2.0.1-(1.21.4).jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/DosZdmJF/versions/y9RH3kbO/jakes-build-tools-1.7.1.jar"
+url = "https://cdn.modrinth.com/data/DosZdmJF/versions/M4FAHAmn/jakes-build-tools-2.0.1-%281.21.4%29.jar"
 hash-format = "sha1"
-hash = "05917531740e0b20daaa0bd1298e8db22b667e56"
+hash = "c81b49410ac3d126f59d10b7a91322cbfae05239"
 
 [update]
 [update.modrinth]
 mod-id = "DosZdmJF"
-version = "y9RH3kbO"
+version = "M4FAHAmn"
