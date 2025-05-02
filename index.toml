@@ -41,11 +41,6 @@ hash = "1b38113df4866684a920a0057e7f76d850ca490edf33b9596bd3e762c65711e5"
 metafile = true
 
 [[files]]
-file = "mods/command-alias-maker.pw.toml"
-hash = "f58023486644a6d6000f5fa974e87ff5b73e48ace1f3cbb98ba3846f56f813b7"
-metafile = true
-
-[[files]]
 file = "mods/compact-help-command.pw.toml"
 hash = "c9d70cde34949717c02532a27e3b2d883e1f2591006b78ccb8349edabbc99687"
 metafile = true
