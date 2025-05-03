@@ -96,6 +96,11 @@ hash = "8200bf6ae22c874f6fd8853c8db86113ca8a0a038ec7cacb014df8328e2c784d"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "00d9b198ef82ecc127e22b10cb02798bf4170d8284a2f8b80a96d8275a490b35"
+metafile = true
+
+[[files]]
 file = "mods/hand-over-your-items.pw.toml"
 hash = "871e45f40b713f0bafbf1db4437e7c003d508b57a0718fe3acec0765821f2b11"
 metafile = true
@@ -136,6 +141,11 @@ hash = "9718422d762612b204ebd36c1c504cdf85e23e59bc7a76f30ee7f1d721327b24"
 metafile = true
 
 [[files]]
+file = "mods/mutant-monsters.pw.toml"
+hash = "aac5d92814b8597439fd5556b391e791214390704a53d98cb7970905618c4388"
+metafile = true
+
+[[files]]
 file = "mods/name-tag-tweaks.pw.toml"
 hash = "05cd7a4b3ed0e978833df6f182543c70cf9ab9ea02233167de2b7b22570ffc01"
 metafile = true
@@ -148,6 +158,11 @@ metafile = true
 [[files]]
 file = "mods/passive-shield.pw.toml"
 hash = "fa715a2528241f1fdd37aad9c070f6f2fe6672007739226e3ce2ec863b3647e2"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "d5e7f297530482bc27ec2a18a4381ac24cfcbacea29fad5343f20442b41ff529"
 metafile = true
 
 [[files]]
