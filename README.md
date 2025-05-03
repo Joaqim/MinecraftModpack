@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.05.02-rc1  
+**Version**: v2025.05.03-rc2  
 **Minecraft Version**: 1.21.4  
 **Fabric Version**: 0.16.14  
 
@@ -29,17 +29,24 @@ Modpack Info
 - [**[EMF] Entity Model Features**](https://modrinth.com/mod/entity-model-features) (client, 2.4.1) - EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge.
 - [**[ETF] Entity Texture Features**](https://modrinth.com/mod/entitytexturefeatures) (client, 6.2.10) - Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric
 - [**Fabric API**](https://modrinth.com/mod/fabric-api) (both, 0.119.2+1.21.4) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
+- [**Forge Config API Port**](https://modrinth.com/mod/forge-config-api-port) (both, v21.4.1-1.21.4-Fabric) - NeoForge's & Forge's config systems provided to other modding ecosystems. Designed for a multiloader architecture.
 - [**Hand Over Your Items**](https://modrinth.com/mod/hand-over-your-items) (both, 1.21.4-3.6-fabric+forge+neo) - 🤝 Adds to ability for in-game players to give each other itemstacks without dropping/tossing them.
 - [**Jake's Build Tools**](https://modrinth.com/mod/jakes-build-tools) (both, 2.0.1-(1.21.4)+mod) - Adds a bunch of craftable tools that help make building easier! Trowel, chisel, hammer and so much more!
+- [**Jetpack Boots**](https://modrinth.com/mod/jetpack-boots) (both, 1.1+mod) - Datapack that adds boots that you can fly with when combined with elytra.
 - [**LambDynamicLights**](https://modrinth.com/mod/lambdynamiclights) (client, 4.1.2+1.21.4) - Adds dynamic lights to Minecraft as the most feature-complete and optimized dynamic lighting mod for Fabric.
 - [**Lithium**](https://modrinth.com/mod/lithium) (both, mc1.21.4-0.15.3-fabric) - No-compromises game logic optimization mod. Well suited for clients and servers of all kinds. Now available for Fabric and NeoForge!
 - [**Macaw's Doors**](https://modrinth.com/mod/macaws-doors) (both, 1.1.2) - Adds vanilla doors with every wood color and new unique doors! Such as western, garage, shoji and more...!
 - [**Macaw's Paintings**](https://modrinth.com/mod/macaws-paintings) (both, 1.0.5) - Adds custom drawn paintings to fit in your world!
 - [**Macaws Stairs**](https://modrinth.com/mod/macaws-stairs) (both, 1.0.1) - Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies!
 - [**Macaw's Trapdoors**](https://modrinth.com/mod/macaws-trapdoors) (both, 1.1.4) - Adds vanila trapdoors in every plank variation, and some new trapdoors too!
+- [**More Chests Variants (MCV)**](https://modrinth.com/mod/more-chest-variants-lieonlion) (both, 1.5.11+1.21.4-Fabric) - Chests for all the different woods
+- [**More Ladders**](https://modrinth.com/mod/moreladders) (both, 1.8.1-1.21.5) - Adds more types of ladders to Minecraft
+- [**Mutant Monsters**](https://modrinth.com/mod/mutant-monsters) (both, v21.4.2-1.21.4-Fabric) - The mutants are back! Face scary creatures and powerful beasts like never before.
 - [**Name Tag Tweaks**](https://modrinth.com/mod/name-tag-tweaks) (server, 1.21.4-4.0-fabric+forge+neo) - 📛 Adds nametag crafting recipe, command, and named entities drop their tag on death.
 - [**Paladin's Furniture Mod**](https://modrinth.com/mod/paladins-furniture) (both, 1.21.4-v1.4.2-fabric) - A Modern Furniture mod for Minecraft where things are functional!
 - [**Passive Shield**](https://modrinth.com/mod/passive-shield) (both, 1.21.4-3.7-fabric+forge+neo) - 🛡 The shield is hidden and provides protection passively when held idle in the offhand.
+- [**Puzzles Lib**](https://modrinth.com/mod/puzzles-lib) (both, v21.4.13-1.21.4-Fabric) - Why it's called Puzzles, you ask? That's the puzzle!
+- [**Quad**](https://modrinth.com/mod/quad) (both, 1.2.11+1.21.4-Fabric) - Tags, more of them, giving the power to the player in a vanilla style
 - [**Realistic Bees**](https://modrinth.com/mod/realistic-bees) (both, 1.21.4-4.2-fabric+forge+neo) - 🐝 Tiny bees, or big! Bigger group spawns, increased hive space, stinger functionality and more.
 - [**Skin Restorer**](https://modrinth.com/mod/skinrestorer) (server, 2.3.0+1.21-fabric) - A server-side mod for managing and restoring player skins.
 - [**Sodium**](https://modrinth.com/mod/sodium) (client, mc1.21.4-0.6.13-fabric) - The fastest and most compatible rendering optimization mod for Minecraft. Now available for both NeoForge and Fabric!
