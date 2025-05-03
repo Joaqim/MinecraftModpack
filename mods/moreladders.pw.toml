@@ -1,0 +1,13 @@
+name = "More Ladders"
+filename = "moreladders-1.8.1-1.21.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cs6FaYWt/versions/z5tZ4RwV/moreladders-1.8.1-1.21.5.jar"
+hash-format = "sha1"
+hash = "31189f5d263e5643077e27ee5adb2f4625988d20"
+
+[update]
+[update.modrinth]
+mod-id = "cs6FaYWt"
+version = "z5tZ4RwV"
