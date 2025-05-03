@@ -12,12 +12,24 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Restore cached Packwiz
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/packwiz
+          key: ${{ runner.os }}-packwiz
       - name: Install Nix
         uses: cachix/install-nix-action@v31
       - name: Create mrpack
         run: |
           OUTPUT_PATH=$(nix build .#modrinth-pack --print-out-paths)
           echo "OUTPUT_PATH=$OUTPUT_PATH" >> $GITHUB_ENV
+      - name: Cache Packwiz
+        id: cache-save
+        uses: actions/cache/save@v4
+        with:
+          path: ~/.cache/packwiz
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
       - name: Upload mrpack
         uses: softprops/action-gh-release@v2
         with:
