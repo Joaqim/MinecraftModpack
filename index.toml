@@ -236,6 +236,11 @@ hash = "d7d2d18c1332d2403f53eed08794d1b47291542709461fb4cae4ba00d5b31203"
 metafile = true
 
 [[files]]
+file = "mods/tslatentitystatus.pw.toml"
+hash = "1b5fb660aa0015a2d5131fc1a4273aa2ebf6eb51d7b631f1ceb6c14ce7cca34f"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "f8cae96a3bf64d215ea50a69dadd448de44d2998b3c8860e99baf44bf0e323e4"
 metafile = true

@@ -1,0 +1,13 @@
+name = "TslatEntityStatus"
+filename = "TslatEntityStatus-fabric-1.21.3-1.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4A86JsDZ/versions/TPx3jh9Z/TslatEntityStatus-fabric-1.21.3-1.7.jar"
+hash-format = "sha1"
+hash = "12085241b980cfc544e687ce68132a669120f2fb"
+
+[update]
+[update.modrinth]
+mod-id = "4A86JsDZ"
+version = "TPx3jh9Z"

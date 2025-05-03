@@ -1,12 +1,12 @@
 name = "Minecraft Modpack"
 author = "Joaqim"
-version = "v2025.05.03-rc3"
+version = "v2025.05.03-rc4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3b02df49b10b30cafff9a75e61847729f846454282690264bfeee95238ac6368"
+hash = "bdbc6fd457311d91e9d9f881b6e7a12b8725b439906fb29fcda518a9f9e400f1"
 
 [versions]
 fabric = "0.16.14"

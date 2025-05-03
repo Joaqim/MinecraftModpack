@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env nu
 let modpack_path = (just build-mrpack | complete | get stdout | str trim | ls -f $in | get name | first)
 
 let hosts = [ "deck@deck:/home/deck/Downloads/" "jq@node:/home/jq/Downloads/" ]
