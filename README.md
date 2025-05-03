@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.05.03-rc2  
+**Version**: v2025.05.03-rc3  
 **Minecraft Version**: 1.21.4  
 **Fabric Version**: 0.16.14  
 
@@ -25,8 +25,10 @@ Modpack Info
 - [**Distant Horizons**](https://modrinth.com/mod/distanthorizons) (both, 2.3.2-b-1.21.4) - See farther without turning your game into a slide show
 - [**Dwarfs and Giants - Scale potions**](https://modrinth.com/mod/dwarfsandgiants) (both, 1.0.3+mod) - Change the size of yourself, mobs, and armor stands using craftable potions. Large variety of sizes available!
 - [**Easy Elytra Takeoff**](https://modrinth.com/mod/easy-elytra-takeoff) (server, 1.21.4-4.5-fabric+forge+neo) - 🛫 Allows easy takeoff by elytra/colytra with a firework from the ground without jumping.
+- [**Enhanced Block Entities**](https://modrinth.com/mod/ebe) (client, 0.11.3+1.21.4) - Reduce block entity FPS lag with almost no compromises, and improve their visuals
 - [**Enchanting Commands**](https://modrinth.com/mod/enchanting-commands) (server, 1.21.4-3.5-fabric+forge+neo) - 💫 Easy creation of (modded) enchanted items via commands with levels above the default limit.
 - [**[EMF] Entity Model Features**](https://modrinth.com/mod/entity-model-features) (client, 2.4.1) - EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge.
+- [**Entity Culling**](https://modrinth.com/mod/entityculling) (client, 1.7.4) - Using async path-tracing to hide Block-/Entities that are not visible
 - [**[ETF] Entity Texture Features**](https://modrinth.com/mod/entitytexturefeatures) (client, 6.2.10) - Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric
 - [**Fabric API**](https://modrinth.com/mod/fabric-api) (both, 0.119.2+1.21.4) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
 - [**Forge Config API Port**](https://modrinth.com/mod/forge-config-api-port) (both, v21.4.1-1.21.4-Fabric) - NeoForge's & Forge's config systems provided to other modding ecosystems. Designed for a multiloader architecture.
@@ -50,6 +52,7 @@ Modpack Info
 - [**Realistic Bees**](https://modrinth.com/mod/realistic-bees) (both, 1.21.4-4.2-fabric+forge+neo) - 🐝 Tiny bees, or big! Bigger group spawns, increased hive space, stinger functionality and more.
 - [**Skin Restorer**](https://modrinth.com/mod/skinrestorer) (server, 2.3.0+1.21-fabric) - A server-side mod for managing and restoring player skins.
 - [**Sodium**](https://modrinth.com/mod/sodium) (client, mc1.21.4-0.6.13-fabric) - The fastest and most compatible rendering optimization mod for Minecraft. Now available for both NeoForge and Fabric!
+- [**Sound Physics Remastered**](https://modrinth.com/mod/sound-physics-remastered) (client, fabric-1.21.4-1.4.12) - A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.
 - [**spark**](https://modrinth.com/mod/spark) (both, 1.10.121-fabric) - spark is a performance profiler for Minecraft clients, servers and proxies.
 - [**Stack Refill**](https://modrinth.com/mod/stack-refill) (both, 1.21.4-4.6-fabric+forge+neo) - 📚 Automatically refills the player's hand when using the final item if a replacement exists.
 - [**Stack to Nearby Chests**](https://modrinth.com/mod/stack-to-nearby-chests) (client, 0.5.12) - A client-side ONLY mod, adds the quick stacking and restocking features from Terraria into Minecraft.
