@@ -111,6 +111,11 @@ hash = "e03133a74987a7a40d1b77f334482717a4433fdb26491b8898891efbd5ed176a"
 metafile = true
 
 [[files]]
+file = "mods/jetpack-boots.pw.toml"
+hash = "a72bd4e06995126639d70cdd21b7cc54aadfdab8d06572926c98295bc071df43"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "a438e7d4cf48d890de4d1af5582e6b31f43e3c8e44f3b18271f8781475145d86"
 metafile = true
@@ -141,6 +146,16 @@ hash = "9718422d762612b204ebd36c1c504cdf85e23e59bc7a76f30ee7f1d721327b24"
 metafile = true
 
 [[files]]
+file = "mods/more-chest-variants-lieonlion.pw.toml"
+hash = "c911f3b49c4dd770a1a89017feb393a992a1c86aa5989453e8702807aec1e612"
+metafile = true
+
+[[files]]
+file = "mods/moreladders.pw.toml"
+hash = "b6848a73ec205a577c985abf5d33774a72fcc1be0784147736ba01135046b57b"
+metafile = true
+
+[[files]]
 file = "mods/mutant-monsters.pw.toml"
 hash = "aac5d92814b8597439fd5556b391e791214390704a53d98cb7970905618c4388"
 metafile = true
@@ -163,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "d5e7f297530482bc27ec2a18a4381ac24cfcbacea29fad5343f20442b41ff529"
+metafile = true
+
+[[files]]
+file = "mods/quad.pw.toml"
+hash = "6f41414e0d06e3d6756a296ef5e250c45d62b6043d677525daf13939de5cd3fc"
 metafile = true
 
 [[files]]

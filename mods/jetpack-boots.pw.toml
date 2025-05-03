@@ -1,0 +1,13 @@
+name = "Jetpack Boots"
+filename = "jetpack-boots-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ChkHwAdr/versions/dsDqv7cF/jetpack-boots-1.1.jar"
+hash-format = "sha1"
+hash = "4d68a87a8cfe4e67529678bac74794f81ff10ec9"
+
+[update]
+[update.modrinth]
+mod-id = "ChkHwAdr"
+version = "dsDqv7cF"
