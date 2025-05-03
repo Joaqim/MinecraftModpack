@@ -1,0 +1,13 @@
+name = "Mutant Monsters"
+filename = "MutantMonsters-v21.4.2-1.21.4-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/derP0ten/versions/a0llgYDn/MutantMonsters-v21.4.2-1.21.4-Fabric.jar"
+hash-format = "sha1"
+hash = "8b6ef85f46f15131afe453b2bc2215b57bad4837"
+
+[update]
+[update.modrinth]
+mod-id = "derP0ten"
+version = "a0llgYDn"
