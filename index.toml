@@ -76,6 +76,11 @@ hash = "b6e06345d3aa813e9aa2453e439ab0499d1e2bfc314d1ab64426bf435fb2dde8"
 metafile = true
 
 [[files]]
+file = "mods/ebe.pw.toml"
+hash = "c8470b279372c8b2b220fea0292b2dd7efe17a0fa62a10b3c03aae0fbf29169a"
+metafile = true
+
+[[files]]
 file = "mods/enchanting-commands.pw.toml"
 hash = "f19bbe2107393bafbf4ef721bbfff0ac8f8208b0a5fb0aa0f2837c0f0880a7d9"
 metafile = true
@@ -83,6 +88,11 @@ metafile = true
 [[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "0712f5b6e3ba0fec55b99924ef061c4ecf6f38ef08595da79fe7afb68ca4328c"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "61710471c804d4368605b0d7cb37fb943294a3a5231c6b151e14b9721dff8797"
 metafile = true
 
 [[files]]
@@ -198,6 +208,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "8c77db94f037dd446bdd283672a329390cb902331d30c887909cde843eb8f2ea"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "7ad6ba277152cbb66e3630ad71c5c7c4503ac02c7f66525d11a9147b49be749b"
 metafile = true
 
 [[files]]
