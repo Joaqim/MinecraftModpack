@@ -6,6 +6,11 @@ hash = "0fa606722f5d7421473d74bac2ecb025a001a6e584317e1fb6c18ddeb084047c"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "1bd558845ef2c50c8737712da57f50404b001cedc3a1b69711d33eb74de2b02e"
+metafile = true
+
+[[files]]
 file = "mods/areas.pw.toml"
 hash = "1415d15ab8ed265374e1b7beab4e85a2978b2405749274932bb395f72094579a"
 metafile = true
@@ -33,6 +38,11 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "01735a9d638c8fb4896c1a700eff0954aff8b854b517036bd9688e1d1754a7af"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "2fe7f730ed1e69326a938cca8db3dd4d4452b05cddb856cb50b5478b2ae79fe0"
 metafile = true
 
 [[files]]
@@ -198,6 +208,11 @@ metafile = true
 [[files]]
 file = "mods/realistic-bees.pw.toml"
 hash = "ed453ae2277ab211cf6473f7c6e7bde7e4c8f1d93125e92c87bc725c3dc71e92"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "fdd9ea016707d77ebb47e39a5ac7b4eed161849df945fcc426e4c991f76f54cd"
 metafile = true
 
 [[files]]
