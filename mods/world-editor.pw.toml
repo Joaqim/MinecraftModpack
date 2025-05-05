@@ -1,0 +1,13 @@
+name = "World Editor"
+filename = "world-editor-v2.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uRd37jgq/versions/iwsilr0f/world-editor-v2.2.1.jar"
+hash-format = "sha1"
+hash = "1b034692074daa2c3d177c3b7693ccd39cb76793"
+
+[update]
+[update.modrinth]
+mod-id = "uRd37jgq"
+version = "iwsilr0f"
