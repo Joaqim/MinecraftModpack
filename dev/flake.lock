@@ -108,22 +108,6 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
-      "locked": {
-        "lastModified": 1736684107,
-        "narHash": "sha256-vH5mXxEvZeoGNkqKoCluhTGfoeXCZ1seYhC2pbMN0sg=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "635e887b48521e912a516625eee7df6cf0eba9c1",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "nixos-24.11",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "poetry2nix": {
       "inputs": {
         "flake-utils": [
@@ -181,26 +165,8 @@
         "nixpkgs": "nixpkgs",
         "poetry2nix": "poetry2nix",
         "pre-commit-hooks-nix": "pre-commit-hooks-nix",
-        "systems": "systems"
-      }
-    },
-    "selfup": {
-      "inputs": {
-        "nixpkgs": "nixpkgs_2"
-      },
-      "locked": {
-        "lastModified": 1736841604,
-        "narHash": "sha256-iEBjUiwg4H2eCfnPuQf+lXSsVmRHi/RvC6EE798NYy8=",
-        "owner": "kachick",
-        "repo": "selfup",
-        "rev": "78de5a4e1c137f05d5c510c038fe868b49924c46",
-        "type": "github"
-      },
-      "original": {
-        "owner": "kachick",
-        "ref": "v1.1.9",
-        "repo": "selfup",
-        "type": "github"
+        "systems": "systems",
+        "update-hash": "update-hash"
       }
     },
     "systems": {
@@ -215,6 +181,45 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "systems_2": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "update-hash": {
+      "inputs": {
+        "flake-parts": [
+          "flake-parts"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "systems": "systems_2"
+      },
+      "locked": {
+        "lastModified": 1746461830,
+        "narHash": "sha256-I3XuhMaZRv+Yf2tnPu2kG2WHyil+dO/GDzqVgQoDAqg=",
+        "owner": "Joaqim",
+        "repo": "update-hash",
+        "rev": "0ef13376f18e1519dacbb1f895663f8370a3f5ca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Joaqim",
+        "repo": "update-hash",
         "type": "github"
       }
     }

@@ -5,7 +5,11 @@
     nixpkgs.url = "nixpkgs/nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     systems.url = "github:nix-systems/default";
-
+    update-hash = {
+      url = "github:Joaqim/update-hash";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.flake-parts.follows = "flake-parts";
+    };
     flake-utils = {
       url = "github:numtide/flake-utils";
       inputs.systems.follows = "systems";
@@ -43,45 +47,46 @@
 
       perSystem = {
         config,
+        self',
         system,
         pkgs,
         inputs',
         lib,
         ...
-      }: {
+      }: let
+        inherit (inputs'.update-hash.packages) update-hash;
+      in {
         _module.args.pkgs = import inputs.nixpkgs {
           inherit system;
           overlays = [inputs.poetry2nix.overlays.default];
         };
 
-        packages = {
-          generate-readme = pkgs.callPackage ../generate-readme {};
+        apps.update-hash = {
+          type = "app";
+          program = lib.getExe update-hash;
         };
+
+        packages.generate-readme = pkgs.callPackage ../generate-readme {};
 
         pre-commit = {
           settings = {
             src = ./..;
             hooks = {
-              update-hash = let
-                inherit (self.packages.${system}) update-hash;
-              in {
-                enable = true;
-                entry = "${lib.getExe update-hash} run";
-                fail_fast = true;
-                files = "(\\.toml$|\\.nix$|^flake.lock$)";
-                pass_filenames = false;
-                package = update-hash;
-                stages = ["pre-push"];
-              };
-
-              check-flake = {
-                enable = true;
-                entry = "nix flake check";
-                always_run = true;
-                pass_filenames = false;
-                after = ["update-hash"];
-                stages = ["pre-push"];
-              };
+              enable = true;
+              entry = "${lib.getExe update-hash} run";
+              fail_fast = true;
+              files = "(\\.toml$|\\.nix$|^flake.lock$)";
+              pass_filenames = false;
+              package = update-hash;
+              stages = ["pre-push"];
+            };
+            check-flake = {
+              enable = true;
+              entry = "nix flake check";
+              always_run = true;
+              pass_filenames = false;
+              after = ["update-hash"];
+              stages = ["pre-push"];
             };
           };
         };
@@ -92,6 +97,7 @@
               nvfetcher
               packwiz
               poetry
+              update-hash
             ];
             shellHook = ''
               ${config.pre-commit.installationScript}
