@@ -72,6 +72,7 @@
           settings = {
             src = ./..;
             hooks = {
+              update-hash = {
               enable = true;
               entry = "${lib.getExe update-hash} run";
               fail_fast = true;
@@ -87,6 +88,7 @@
               pass_filenames = false;
               after = ["update-hash"];
               stages = ["pre-push"];
+              };
             };
           };
         };
