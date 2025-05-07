@@ -4,7 +4,9 @@ version: '3'
 
 tasks:
   bump:
+    sources:
+      - ./changes/unreleased/*.yaml
     cmds:
-      - changie batch auto
+      - changie batch auto || exit 0
       - changie merge
       - nix run ./dev#update-hash run

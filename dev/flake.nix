@@ -72,9 +72,16 @@
           settings = {
             src = ./..;
             hooks = {
+              changie = {
+                enable = true;
+                entry = "task bump";
+                fail_fast = true;
+                pass_filenames = false;
+                stages = ["pre-push"];
+              };
               update-hash = {
                 enable = true;
-                entry = "${lib.getExe update-hash} run";
+                entry = "${lib.getExe update-hash} run --amend";
                 fail_fast = true;
                 files = "(\\.toml$|\\.nix$|^flake.lock$)";
                 pass_filenames = false;
