@@ -210,11 +210,11 @@
         "systems": "systems_2"
       },
       "locked": {
-        "lastModified": 1746461830,
-        "narHash": "sha256-I3XuhMaZRv+Yf2tnPu2kG2WHyil+dO/GDzqVgQoDAqg=",
+        "lastModified": 1746634283,
+        "narHash": "sha256-efNCKVQX4Kr2HNK1pX80c9vukQj4UZ6Xbxt4UavzbC8=",
         "owner": "Joaqim",
         "repo": "update-hash",
-        "rev": "0ef13376f18e1519dacbb1f895663f8370a3f5ca",
+        "rev": "7a6fe61f7dcc23bcfea0ecba92d840177ec66177",
         "type": "github"
       },
       "original": {

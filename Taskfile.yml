@@ -7,4 +7,4 @@ tasks:
     cmds:
       - changie batch auto
       - changie merge
-      - nix run ./dev#update-hash
+      - nix run ./dev#update-hash run
