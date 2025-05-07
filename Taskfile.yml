@@ -1,0 +1,10 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  bump:
+    cmds:
+      - changie batch auto
+      - changie merge
+      - nix run ./dev#update-hash

@@ -73,21 +73,21 @@
             src = ./..;
             hooks = {
               update-hash = {
-              enable = true;
-              entry = "${lib.getExe update-hash} run";
-              fail_fast = true;
-              files = "(\\.toml$|\\.nix$|^flake.lock$)";
-              pass_filenames = false;
-              package = update-hash;
-              stages = ["pre-push"];
-            };
-            check-flake = {
-              enable = true;
-              entry = "nix flake check";
-              always_run = true;
-              pass_filenames = false;
-              after = ["update-hash"];
-              stages = ["pre-push"];
+                enable = true;
+                entry = "${lib.getExe update-hash} run";
+                fail_fast = true;
+                files = "(\\.toml$|\\.nix$|^flake.lock$)";
+                pass_filenames = false;
+                package = update-hash;
+                stages = ["pre-push"];
+              };
+              check-flake = {
+                enable = true;
+                entry = "nix flake check";
+                always_run = true;
+                pass_filenames = false;
+                after = ["update-hash"];
+                stages = ["pre-push"];
               };
             };
           };
@@ -101,6 +101,7 @@
               poetry
               update-hash
               changie # Automatic changelog tool for tags
+              go-task
             ];
             shellHook = ''
               ${config.pre-commit.installationScript}
