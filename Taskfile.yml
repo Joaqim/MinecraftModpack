@@ -1,0 +1,42 @@
+# https://taskfile.dev
+
+version: '3'
+set: ["e"]
+tasks:
+  packwkiz-modrinth-action:
+    vars:
+      MOD_NAME:
+        sh: >
+          packwiz modrinth install {{.MOD}} | grep Project |  awk -F ' ' '{print $2}' | sed 's/"//g'
+      COMMIT_MSG: 
+        sh: >
+          echo '{{if .INSTALL}}feat(mods): Add{{else}}revert(mods): Remove{{end}} \`{{.MOD_NAME}}\`'
+    requires: 
+      vars: [MOD]
+    cmds:
+      - >
+        {{if empty .MOD_NAME}}exit 1{{else}}echo "{{.MOD_NAME}}"{{end}}
+      - >
+        {{if not .INSTALL}}
+            packwiz uninstall {{.MOD}}
+        {{end}}
+      - >
+        {{if .COMMIT}}
+          git add index.toml pack.toml mods
+          git commit -m "{{.COMMIT_MSG}}" index.toml pack.toml mods
+        {{end}}
+  add:
+    requires:
+      vars: [MOD]
+    cmds:
+      - task packwkiz-modrinth-action INSTALL=true MOD={{.MOD}} COMMIT={{.COMMIT}}
+  
+  remove:
+    requires:
+      vars: [MOD]
+    cmds:
+      - task packwkiz-modrinth-action MOD={{.MOD}} COMMIT={{.COMMIT}}
+
+  generate-readme:
+    cmds:
+      - nix run ./dev#generate-readme -- --manifest pack.toml --output README.md ${CF_API_KEY:+--cf-key "$CF_API_KEY"}
