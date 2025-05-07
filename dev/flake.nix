@@ -100,6 +100,7 @@
               packwiz
               poetry
               update-hash
+              changie # Automatic changelog tool for tags
             ];
             shellHook = ''
               ${config.pre-commit.installationScript}
