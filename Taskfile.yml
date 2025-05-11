@@ -6,8 +6,8 @@ tasks:
   packwkiz-modrinth-action:
     vars:
       MOD_NAME:
-        sh: >
-          packwiz modrinth install {{.MOD}} | grep Project |  awk -F ' ' '{print $2}' | sed 's/"//g'
+        sh: > # TODO: Display error message from packwiz
+          packwiz modrinth install "{{.MOD}}" | sed -nE 's;"([\w ]+).*;\1;p' | awk -F '"' '{print $2}' | xargs
       COMMIT_MSG: 
         sh: >
           echo '{{if .INSTALL}}feat(mods): Add{{else}}revert(mods): Remove{{end}} \`{{.MOD_NAME}}\`'
@@ -18,7 +18,7 @@ tasks:
         {{if empty .MOD_NAME}}exit 1{{else}}echo "{{.MOD_NAME}}"{{end}}
       - >
         {{if not .INSTALL}}
-            packwiz uninstall {{.MOD}}
+            packwiz uninstall "{{.MOD}}"
         {{end}}
       - >
         {{if .COMMIT}}
@@ -29,7 +29,7 @@ tasks:
     requires:
       vars: [MOD]
     cmds:
-      - task packwkiz-modrinth-action INSTALL=true MOD={{.MOD}} COMMIT={{.COMMIT}}
+      - task packwkiz-modrinth-action INSTALL=true MOD="{{.MOD}}" COMMIT="{{.COMMIT}}"
   
   remove:
     requires:
