@@ -251,6 +251,11 @@ hash = "d7d2d18c1332d2403f53eed08794d1b47291542709461fb4cae4ba00d5b31203"
 metafile = true
 
 [[files]]
+file = "mods/the-watch-of-time.pw.toml"
+hash = "fe19c9e34c104fa11c30e693cd61a4233c2c43072a444b98a2e75e82b0821e89"
+metafile = true
+
+[[files]]
 file = "mods/tslatentitystatus.pw.toml"
 hash = "1b5fb660aa0015a2d5131fc1a4273aa2ebf6eb51d7b631f1ceb6c14ce7cca34f"
 metafile = true

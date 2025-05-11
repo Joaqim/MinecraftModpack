@@ -28,7 +28,7 @@
           # Run `nix flake check ./?dir=dev&submodules=1` will give you the correct hash to assign below.
           # When you've set the hash, the next build will return with a `/nix/store` location
           # of the entry of the modpack, which will also be symlinked into `./result/`.
-          modrinth-pack-hash = "sha256-GR23Z7klf3/Q+36/s6dMugg40KwaddlH7paAY4EmLVw=";
+          modrinth-pack-hash = "sha256-wa52Eh4PKoawf5519+VithUsj2dTo2nLL2qyWmgLaeA=";
         in {
           modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix {
             src = self;

@@ -1,0 +1,13 @@
+name = "The Watch of Time"
+filename = "thewatchoftime-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/viNE8C7n/versions/Y5875VMa/thewatchoftime-1.1.1.jar"
+hash-format = "sha1"
+hash = "cc61aff8216d5edfe6845a41cec629f3713a2255"
+
+[update]
+[update.modrinth]
+mod-id = "viNE8C7n"
+version = "Y5875VMa"
