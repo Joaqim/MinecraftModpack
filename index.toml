@@ -21,6 +21,11 @@ hash = "a0bb589dcd38ff34cefc3ff465564171da9c616b35f94141bbfc7dcde31b66ee"
 metafile = true
 
 [[files]]
+file = "mods/autorelog.pw.toml"
+hash = "4fc00ef04660704ad21b4b8f696da525a93d58ef7e61db4d33c9c17359a792e3"
+metafile = true
+
+[[files]]
 file = "mods/beautified-chat-client.pw.toml"
 hash = "c960bcbcb832bb3e289643646a1977da5b9c81a55f7bc6cc8cd457871a1cd6a2"
 metafile = true
