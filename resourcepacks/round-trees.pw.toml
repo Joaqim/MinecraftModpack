@@ -1,0 +1,13 @@
+name = "Round Trees"
+filename = "Round-Trees-7.1-1.19+.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XlqZTP4W/versions/eGUhkzJd/Round-Trees-7.1-1.19%2B.zip"
+hash-format = "sha1"
+hash = "d81bbb9d42e1e48b84c9957883de4fbe79e94bb1"
+
+[update]
+[update.modrinth]
+mod-id = "XlqZTP4W"
+version = "eGUhkzJd"

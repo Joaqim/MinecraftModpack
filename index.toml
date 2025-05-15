@@ -166,6 +166,11 @@ hash = "9718422d762612b204ebd36c1c504cdf85e23e59bc7a76f30ee7f1d721327b24"
 metafile = true
 
 [[files]]
+file = "mods/mob-plaques.pw.toml"
+hash = "eaeb4e1bdea4d4c6d4e22fd208118e28477addf38cd0327074073bf09819d91a"
+metafile = true
+
+[[files]]
 file = "mods/more-chest-variants-lieonlion.pw.toml"
 hash = "c911f3b49c4dd770a1a89017feb393a992a1c86aa5989453e8702807aec1e612"
 metafile = true
@@ -281,6 +286,16 @@ hash = "7e207818f027fcafa44bfb8aa11ac18d9bf0357be32bceeca94ac4920637bb7e"
 metafile = true
 
 [[files]]
+file = "resourcepacks/dramatic-skys.pw.toml"
+hash = "292e359196c2c45c730f429679c4f3d7518475968055d3b7e06d34f4969bd8f2"
+metafile = true
+
+[[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "ee2cfef7c5a8449139deaf78229cd39d6c516950c6cc8175cd6e79382bb25c08"
+metafile = true
+
+[[files]]
+file = "resourcepacks/round-trees.pw.toml"
+hash = "47457b10010215abda96366b8ca75887cfae6bc695a2198e5801add260d4bc4b"
 metafile = true
