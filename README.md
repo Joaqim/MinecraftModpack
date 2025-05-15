@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.05.11-rc1  
+**Version**: v2025.05.15-rc1  
 **Minecraft Version**: 1.21.4  
 **Fabric Version**: 0.16.14  
 
@@ -14,6 +14,7 @@ Modpack Info
 - [**Architectury API**](https://modrinth.com/mod/architectury-api) (both, 15.0.3+fabric) - An intermediary api aimed to ease developing multiplatform mods.
 - [**Areas**](https://modrinth.com/mod/areas) (both, 1.21.4-6.1-fabric+forge+neo) - ✍️ Create custom named regions/towns/zones with a radius using signs, with join/leave messages via GUI.
 - [**Automatic Operator**](https://modrinth.com/mod/automatic-operator) (server, 1.21.4-1.4-fabric+forge+neo) - 🤖 Automatically makes all or specific players OP in server environments when they log in.
+- [**AutoRelog**](https://modrinth.com/mod/autorelog) (client, 0.1.3+1.21.4) - Automatically reconnect to a restarting server while AFK!
 - [**Beautified Chat [Client]**](https://modrinth.com/mod/beautified-chat-client) (client, 1.21.4-2.7-fabric+forge+neo) - 💬 A highly configurable mod to change the chat style and colour on the client.
 - [**Beautified Chat [Server]**](https://modrinth.com/mod/beautified-chat-server) (server, 1.21.4-2.7-fabric+forge+neo) - 💬 A highly configurable mod to change the style and colour of chat messages server-wide.
 - [**Better Spawner Control**](https://modrinth.com/mod/better-spawner-control) (server, 1.21.4-4.7-fabric+forge+neo) - ✔️ Disables mob spawners whenever they are surrounded by 5 torches.
@@ -43,6 +44,7 @@ Modpack Info
 - [**Macaw's Paintings**](https://modrinth.com/mod/macaws-paintings) (both, 1.0.5) - Adds custom drawn paintings to fit in your world!
 - [**Macaws Stairs**](https://modrinth.com/mod/macaws-stairs) (both, 1.0.1) - Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies!
 - [**Macaw's Trapdoors**](https://modrinth.com/mod/macaws-trapdoors) (both, 1.1.4) - Adds vanila trapdoors in every plank variation, and some new trapdoors too!
+- [**Mob Plaques**](https://modrinth.com/mod/mob-plaques) (client, v21.4.0-1.21.4-Fabric) - Neat, tiny attribute displays for all mobs with great customization!
 - [**More Chests Variants (MCV)**](https://modrinth.com/mod/more-chest-variants-lieonlion) (both, 1.5.11+1.21.4-Fabric) - Chests for all the different woods
 - [**More Ladders**](https://modrinth.com/mod/moreladders) (both, 1.8.1-1.21.5) - Adds more types of ladders to Minecraft
 - [**Mutant Monsters**](https://modrinth.com/mod/mutant-monsters) (both, v21.4.2-1.21.4-Fabric) - The mutants are back! Face scary creatures and powerful beasts like never before.
