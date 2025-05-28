@@ -181,6 +181,11 @@ hash = "c911f3b49c4dd770a1a89017feb393a992a1c86aa5989453e8702807aec1e612"
 metafile = true
 
 [[files]]
+file = "mods/more-mobs.pw.toml"
+hash = "d145de458656e554b173e8f30311938fe4db8ccf3045540e8a7bf7b615e76913"
+metafile = true
+
+[[files]]
 file = "mods/moreladders.pw.toml"
 hash = "b6848a73ec205a577c985abf5d33774a72fcc1be0784147736ba01135046b57b"
 metafile = true
