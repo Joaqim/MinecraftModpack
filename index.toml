@@ -41,6 +41,11 @@ hash = "247a410df03d1712914e14462fabf21aad2042e02f001237a78fe21c69b78b6c"
 metafile = true
 
 [[files]]
+file = "mods/boids.pw.toml"
+hash = "9841a181f4e564c3c7a2501fda4575120c2b70a695cc309e7fd2ee98d9ea14a0"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "01735a9d638c8fb4896c1a700eff0954aff8b854b517036bd9688e1d1754a7af"
 metafile = true
