@@ -206,6 +206,11 @@ hash = "fa715a2528241f1fdd37aad9c070f6f2fe6672007739226e3ce2ec863b3647e2"
 metafile = true
 
 [[files]]
+file = "mods/pet-names.pw.toml"
+hash = "a659da244dd337fa08922e04964c7e75aca6a9612043cbec450fe66e1c623911"
+metafile = true
+
+[[files]]
 file = "mods/photography.pw.toml"
 hash = "e0b970e2c1467ad87984aebddf5faa0b27ebdf099755fb32958d5514bf5695f3"
 metafile = true
