@@ -1,6 +1,6 @@
 name = "Minecraft Modpack"
 author = "Joaqim"
-version = "v2025.05.28-rc1"
+version = "v2025.05.28-rc2"
 pack-format = "packwiz:1.1.0"
 
 [index]
