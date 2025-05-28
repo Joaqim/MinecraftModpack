@@ -226,11 +226,6 @@ hash = "a659da244dd337fa08922e04964c7e75aca6a9612043cbec450fe66e1c623911"
 metafile = true
 
 [[files]]
-file = "mods/photography.pw.toml"
-hash = "e0b970e2c1467ad87984aebddf5faa0b27ebdf099755fb32958d5514bf5695f3"
-metafile = true
-
-[[files]]
 file = "mods/promenade.pw.toml"
 hash = "7bef7e9514d41d7076d6437782ab69f1ba8307e2c711d2c948e20d892d4022da"
 metafile = true
