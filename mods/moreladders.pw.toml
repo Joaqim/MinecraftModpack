@@ -1,13 +1,13 @@
 name = "More Ladders"
-filename = "moreladders-1.8.1-1.21.5.jar"
+filename = "moreladders-fabric-1.21.6-2.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/cs6FaYWt/versions/z5tZ4RwV/moreladders-1.8.1-1.21.5.jar"
+url = "https://cdn.modrinth.com/data/cs6FaYWt/versions/AV6MFr4e/moreladders-fabric-1.21.6-2.1.1.jar"
 hash-format = "sha1"
-hash = "31189f5d263e5643077e27ee5adb2f4625988d20"
+hash = "590a1231b15d3b812f207861c1febbf1e6183d15"
 
 [update]
 [update.modrinth]
 mod-id = "cs6FaYWt"
-version = "z5tZ4RwV"
+version = "AV6MFr4e"

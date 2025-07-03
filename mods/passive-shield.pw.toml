@@ -1,13 +1,13 @@
 name = "Passive Shield"
-filename = "passiveshield-1.21.4-3.7.jar"
+filename = "passiveshield-1.21.6-3.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/iQBrasyH/versions/oGORdY9y/passiveshield-1.21.4-3.7.jar"
+url = "https://cdn.modrinth.com/data/iQBrasyH/versions/ekZxI3pP/passiveshield-1.21.6-3.7.jar"
 hash-format = "sha1"
-hash = "00380e65d69264ed7654d06792ceec4549cc99e9"
+hash = "e37512d622d6259756fca5dbf8fdb422296b5cb0"
 
 [update]
 [update.modrinth]
 mod-id = "iQBrasyH"
-version = "oGORdY9y"
+version = "ekZxI3pP"

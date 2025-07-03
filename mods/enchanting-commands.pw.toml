@@ -1,13 +1,13 @@
 name = "Enchanting Commands"
-filename = "enchantingcommands-1.21.4-3.5.jar"
+filename = "enchantingcommands-1.21.6-3.5.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/w8ljvewX/versions/7YPnZbAN/enchantingcommands-1.21.4-3.5.jar"
+url = "https://cdn.modrinth.com/data/w8ljvewX/versions/ctjxVs1X/enchantingcommands-1.21.6-3.5.jar"
 hash-format = "sha1"
-hash = "32dd9c029be3856884329bb1ec0cdfd67c7b619f"
+hash = "50270715cf5b1b47fcc9315ecc010210aefa10aa"
 
 [update]
 [update.modrinth]
 mod-id = "w8ljvewX"
-version = "7YPnZbAN"
+version = "ctjxVs1X"

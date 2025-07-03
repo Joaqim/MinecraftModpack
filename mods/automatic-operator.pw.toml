@@ -1,13 +1,13 @@
 name = "Automatic Operator"
-filename = "automaticoperator-1.21.4-1.4.jar"
+filename = "automaticoperator-1.21.6-1.4.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/wmbF3trP/versions/HdafG4UU/automaticoperator-1.21.4-1.4.jar"
+url = "https://cdn.modrinth.com/data/wmbF3trP/versions/aLd4huwI/automaticoperator-1.21.6-1.4.jar"
 hash-format = "sha1"
-hash = "264e48636ed1e66a3b5a224c1609cee525ff9d28"
+hash = "230b9eaa8de83e3fb84e54a15e30e78637af07e4"
 
 [update]
 [update.modrinth]
 mod-id = "wmbF3trP"
-version = "HdafG4UU"
+version = "aLd4huwI"

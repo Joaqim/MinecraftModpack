@@ -1,13 +1,13 @@
 name = "Dismount Entity"
-filename = "dismountentity-1.21.4-3.6.jar"
+filename = "dismountentity-1.21.6-3.6.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/H7N61Wcl/versions/jbnDBycN/dismountentity-1.21.4-3.6.jar"
+url = "https://cdn.modrinth.com/data/H7N61Wcl/versions/S8jGkIoj/dismountentity-1.21.6-3.6.jar"
 hash-format = "sha1"
-hash = "08afa6705fa757add7ce1fa57d7b01721ef1811b"
+hash = "d11adbc0f21178a0f8562b0d3975d27926d7d589"
 
 [update]
 [update.modrinth]
 mod-id = "H7N61Wcl"
-version = "jbnDBycN"
+version = "S8jGkIoj"
