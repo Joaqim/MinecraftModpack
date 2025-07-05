@@ -166,11 +166,6 @@ hash = "40c26ae64bca2b40ab43d77c92d740a3b57b4c97df78ff4b95a70ea5ee057ce7"
 metafile = true
 
 [[files]]
-file = "mods/more-chest-variants-lieonlion.pw.toml"
-hash = "3d2d8e1e094cc092fc6fd9784846bcd26f3e3236027eccc8a10314d1145c0622"
-metafile = true
-
-[[files]]
 file = "mods/more-mobs.pw.toml"
 hash = "e98bf072e4fbb001397cb2245b1f1234a6086781caebad166ba59946d099fdd6"
 metafile = true
