@@ -1,13 +1,13 @@
 name = "Dwarfs and Giants - Scale potions"
-filename = "dwarfsandgiants-1.0.5.jar"
+filename = "dwarfsandgiants-1.0.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/k1GdBHzI/versions/vBxh2dR8/dwarfsandgiants-1.0.5.jar"
+url = "https://cdn.modrinth.com/data/k1GdBHzI/versions/OWZe4Ryt/dwarfsandgiants-1.0.7.jar"
 hash-format = "sha1"
-hash = "460ee05f5f91360a3d6b916b518a9fdd71d93254"
+hash = "27ac48c76ef600247c88698ffc0941e6c514149e"
 
 [update]
 [update.modrinth]
 mod-id = "k1GdBHzI"
-version = "vBxh2dR8"
+version = "OWZe4Ryt"

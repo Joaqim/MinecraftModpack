@@ -1,13 +1,13 @@
 name = "Stack Refill"
-filename = "stackrefill-1.21.6-4.9.jar"
+filename = "stackrefill-1.21.9-5.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/mQWkB9ON/versions/VyZlxnda/stackrefill-1.21.6-4.9.jar"
+url = "https://cdn.modrinth.com/data/mQWkB9ON/versions/lc9ctF0h/stackrefill-1.21.9-5.0.jar"
 hash-format = "sha1"
-hash = "ff439cf5af0f358eb05c359051614bc8ae8123e8"
+hash = "9fce1ef8542f2fbdeab3069ba423199b8f79509c"
 
 [update]
 [update.modrinth]
 mod-id = "mQWkB9ON"
-version = "VyZlxnda"
+version = "lc9ctF0h"

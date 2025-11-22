@@ -1,13 +1,13 @@
 name = "Boids"
-filename = "Boids-2.0.0+1.21.2.jar"
+filename = "Boids-2.0.2+1.21.9.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/2OckSy74/versions/ZeTk3V1R/Boids-2.0.0%2B1.21.2.jar"
+url = "https://cdn.modrinth.com/data/2OckSy74/versions/vAzn6k95/Boids-2.0.2%2B1.21.9.jar"
 hash-format = "sha1"
-hash = "222ea0839a03b355afd896f910b32451dbfc5707"
+hash = "b94d400ed40d24d84d911255124fa7865c432886"
 
 [update]
 [update.modrinth]
 mod-id = "2OckSy74"
-version = "ZeTk3V1R"
+version = "vAzn6k95"

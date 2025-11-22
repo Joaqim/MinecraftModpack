@@ -1,13 +1,13 @@
 name = "Starter Kit"
-filename = "starterkit-1.21.6-7.4.jar"
+filename = "starterkit-1.21.9-7.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/6L3ydNi8/versions/WNeGQcWZ/starterkit-1.21.6-7.4.jar"
+url = "https://cdn.modrinth.com/data/6L3ydNi8/versions/Rqh5yP9t/starterkit-1.21.9-7.6.jar"
 hash-format = "sha1"
-hash = "5c494beca1b4133b1509e6a2f7e942ae80c5d101"
+hash = "ad30135b9fa2b819b206aa15a66d3d49d1697d58"
 
 [update]
 [update.modrinth]
 mod-id = "6L3ydNi8"
-version = "WNeGQcWZ"
+version = "Rqh5yP9t"

@@ -1,13 +1,13 @@
 name = "Jetpack Boots"
-filename = "jetpack-boots-1.4.jar"
+filename = "jetpack-boots-1.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ChkHwAdr/versions/lyIMWIAP/jetpack-boots-1.4.jar"
+url = "https://cdn.modrinth.com/data/ChkHwAdr/versions/f8QvFkWc/jetpack-boots-1.6.jar"
 hash-format = "sha1"
-hash = "9b0e064b54c2b520c7c4cf39e19aba0e4c583c6a"
+hash = "25b538ca7b1154bb2a96fbff68ced7bf8edb5cb4"
 
 [update]
 [update.modrinth]
 mod-id = "ChkHwAdr"
-version = "lyIMWIAP"
+version = "f8QvFkWc"
