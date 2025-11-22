@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Minecraft Modpack  
-**Version**: v2025.11.22-rc1  
+**Version**: v2025.11.22-rc2  
 **Minecraft Version**: 1.21.9  
 **Fabric Version**: 0.134.0  
 
@@ -14,7 +14,6 @@ Modpack Info
 - [**Architectury API**](https://modrinth.com/mod/architectury-api) (both, 18.0.5+fabric) - An intermediary api aimed to ease developing multiplatform mods.
 - [**Areas**](https://modrinth.com/mod/areas) (both, 1.21.9-6.2-fabric+forge+neo) - ✍️ Create custom named regions/towns/zones with a radius using signs, with join/leave messages via GUI.
 - [**Automatic Operator**](https://modrinth.com/mod/automatic-operator) (server, 1.21.9-1.5-fabric+forge+neo) - 🤖 Automatically makes all or specific players OP in server environments when they log in.
-- [**AutoRelog**](https://modrinth.com/mod/autorelog) (client, 1.0.0) - Automatically reconnect to a restarting server while AFK!
 - [**Beautified Chat [Client]**](https://modrinth.com/mod/beautified-chat-client) (client, 1.21.9-2.8-fabric+forge+neo) - 💬 A highly configurable mod to change the chat style and colour on the client.
 - [**Beautified Chat [Server]**](https://modrinth.com/mod/beautified-chat-server) (server, 1.21.9-2.8-fabric+forge+neo) - 💬 A highly configurable mod to change the style and colour of chat messages server-wide.
 - [**Better Spawner Control**](https://modrinth.com/mod/better-spawner-control) (server, 1.21.9-4.7-fabric+forge+neo) - ✔️ Disables mob spawners whenever they are surrounded by 5 torches.
@@ -23,7 +22,7 @@ Modpack Info
 - [**Cloth Config API**](https://modrinth.com/mod/cloth-config) (both, 20.0.149+fabric) - Configuration Library for Minecraft Mods
 - [**Collective**](https://modrinth.com/mod/collective) (both, 1.21.9-8.9-fabric+forge+neo) - 🎓 Collective is a shared library with common code for all of Serilum's mods.
 - [**Compact Help Command**](https://modrinth.com/mod/compact-help-command) (server, 1.21.9-2.8-fabric+forge+neo) - 🗜 Modifies the /help command to show all information, be colourful and have multiple pages.
-- [**Controlify**](https://modrinth.com/mod/controlify) (client, 2.4.3) - Adds the best controller support to Minecraft Java edition!
+- [**Controlify (Controller support)**](https://modrinth.com/mod/controlify) (both, 2.4.3) - Adds the best controller support to Minecraft Java edition!
 - [**Despawning Eggs Hatch**](https://modrinth.com/mod/despawning-eggs-hatch) (server, 1.21.9-4.5-fabric+forge+neo) - 🥚 Chicken eggs on hay blocks hatch safely into chicks just before they despawn.
 - [**Dismount Entity**](https://modrinth.com/mod/dismount-entity) (server, 1.21.9-3.6-fabric+forge+neo) - 🚏 Allows players to dismount/remove/exit entities/mobs from mounted entities without breaking them.
 - [**Dwarfs and Giants - Scale potions**](https://modrinth.com/mod/dwarfsandgiants) (both, 1.0.7+mod) - Change the size of yourself, mobs, and armor stands using craftable potions. Large variety of sizes available!
