@@ -1,6 +1,6 @@
-name = "Controlify"
+name = "Controlify (Controller support)"
 filename = "controlify-2.4.3+1.21.10-fabric.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/DOUdJVEm/versions/HMVVnaKs/controlify-2.4.3%2B1.21.10-fabric.jar"
