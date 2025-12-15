@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
       - name: Restore cached Packwiz
         id: cache-restore
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: ~/.cache/packwiz
           key: ${{ runner.os }}-packwiz
@@ -37,7 +37,7 @@ jobs:
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
       - name: Cache Packwiz
         id: cache-save
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: ~/.cache/packwiz
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
